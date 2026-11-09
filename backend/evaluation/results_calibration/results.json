@@ -1,0 +1,2434 @@
+[
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 6,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.84,
+        "prediction": "benign",
+        "confidence": 0.9797,
+        "process": null,
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.024065540205316,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3748,
+          "entropy_delta": 0.0007,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0071,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 5.86,
+        "prediction": "benign",
+        "confidence": 0.961,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.032520325209985,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.372,
+          "entropy_delta": 0.0022,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0174,
+          "process_cpu_percent": 7.27,
+          "io_write_rate_mb_s": 8.8174,
+          "read_write_ratio": 0.0089
+        }
+      },
+      {
+        "t": 9.83,
+        "prediction": "benign",
+        "confidence": 0.972,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3708,
+          "entropy_delta": 0.0022,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0066,
+          "process_cpu_percent": 1.79,
+          "io_write_rate_mb_s": 3.5763,
+          "read_write_ratio": 0.0086
+        }
+      },
+      {
+        "t": 13.75,
+        "prediction": "benign",
+        "confidence": 0.972,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3749,
+          "entropy_delta": 0.0019,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0076,
+          "process_cpu_percent": 1.79,
+          "io_write_rate_mb_s": 3.5763,
+          "read_write_ratio": 0.0086
+        }
+      },
+      {
+        "t": 13.9,
+        "prediction": "benign",
+        "confidence": 0.9846,
+        "process": "python.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4771048744758883,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.373,
+          "entropy_delta": 0.0032,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0107,
+          "process_cpu_percent": 3.82,
+          "io_write_rate_mb_s": 0.0184,
+          "read_write_ratio": 3.2441
+        }
+      },
+      {
+        "t": 18.3,
+        "prediction": "benign",
+        "confidence": 0.9852,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3726,
+          "entropy_delta": 0.0033,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.006,
+          "process_cpu_percent": 3.82,
+          "io_write_rate_mb_s": 0.0184,
+          "read_write_ratio": 3.2441
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 6,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.14,
+        "prediction": "benign",
+        "confidence": 0.9613,
+        "process": "msedgewebview2.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 3.024193548480791,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3724,
+          "entropy_delta": 0.001,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0075,
+          "process_cpu_percent": 28.96,
+          "io_write_rate_mb_s": 81.2255,
+          "read_write_ratio": 1.4244
+        }
+      },
+      {
+        "t": 8.1,
+        "prediction": "benign",
+        "confidence": 0.9593,
+        "process": "msedgewebview2.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.9842519685007792,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3632,
+          "entropy_delta": 0.0018,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0119,
+          "process_cpu_percent": 28.96,
+          "io_write_rate_mb_s": 81.2255,
+          "read_write_ratio": 1.4244
+        }
+      },
+      {
+        "t": 8.24,
+        "prediction": "benign",
+        "confidence": 0.9565,
+        "process": "msedgewebview2.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.8424689083600931,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3723,
+          "entropy_delta": 0.0015,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.004,
+          "process_cpu_percent": 3.83,
+          "io_write_rate_mb_s": 8.0796,
+          "read_write_ratio": 2.1115
+        }
+      },
+      {
+        "t": 11.44,
+        "prediction": "benign",
+        "confidence": 0.9526,
+        "process": "msedgewebview2.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.6835016834955245,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3746,
+          "entropy_delta": 0.0016,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0069,
+          "process_cpu_percent": 3.83,
+          "io_write_rate_mb_s": 8.0796,
+          "read_write_ratio": 2.1115
+        }
+      },
+      {
+        "t": 14.2,
+        "prediction": "benign",
+        "confidence": 0.9585,
+        "process": "msedgewebview2.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3718,
+          "entropy_delta": 0.002,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0063,
+          "process_cpu_percent": 2.45,
+          "io_write_rate_mb_s": 6.9171,
+          "read_write_ratio": 1.5373
+        }
+      },
+      {
+        "t": 17.25,
+        "prediction": "benign",
+        "confidence": 0.9539,
+        "process": "msedgewebview2.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.4885197850464048,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3734,
+          "entropy_delta": 0.003,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0095,
+          "process_cpu_percent": 2.45,
+          "io_write_rate_mb_s": 6.9171,
+          "read_write_ratio": 1.5373
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 9.17,
+        "prediction": "benign",
+        "confidence": 0.96,
+        "process": "msedgewebview2.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 1.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3769,
+          "entropy_delta": 0.0012,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0106,
+          "process_cpu_percent": 20.72,
+          "io_write_rate_mb_s": 36.9273,
+          "read_write_ratio": 1.7338
+        }
+      },
+      {
+        "t": 11.8,
+        "prediction": "benign",
+        "confidence": 0.9508,
+        "process": "msedgewebview2.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 1.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.374,
+          "entropy_delta": 0.0014,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0056,
+          "process_cpu_percent": 13.27,
+          "io_write_rate_mb_s": 36.8622,
+          "read_write_ratio": 1.0658
+        }
+      },
+      {
+        "t": 16.78,
+        "prediction": "benign",
+        "confidence": 0.9523,
+        "process": "msedgewebview2.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 0.9968102073243079,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3735,
+          "entropy_delta": 0.003,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0104,
+          "process_cpu_percent": 10.75,
+          "io_write_rate_mb_s": 32.28,
+          "read_write_ratio": 0.9064
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 4,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.4,
+        "prediction": "benign",
+        "confidence": 0.9629,
+        "process": "Spotify.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 0.9968102073243079,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3702,
+          "entropy_delta": 0.0017,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0134,
+          "process_cpu_percent": 7.77,
+          "io_write_rate_mb_s": 6.6436,
+          "read_write_ratio": 0.0366
+        }
+      },
+      {
+        "t": 10.49,
+        "prediction": "benign",
+        "confidence": 0.9637,
+        "process": "Spotify.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3716,
+          "entropy_delta": 0.0018,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0068,
+          "process_cpu_percent": 1.99,
+          "io_write_rate_mb_s": 4.0911,
+          "read_write_ratio": 0.8925
+        }
+      },
+      {
+        "t": 15.47,
+        "prediction": "benign",
+        "confidence": 0.9631,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 0.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3741,
+          "entropy_delta": 0.0021,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0134,
+          "process_cpu_percent": 0.48,
+          "io_write_rate_mb_s": 3.3773,
+          "read_write_ratio": 0.0093
+        }
+      },
+      {
+        "t": 22.03,
+        "prediction": "benign",
+        "confidence": 0.9674,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.20064205457711334,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3808,
+          "entropy_delta": 0.0036,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.48,
+          "io_write_rate_mb_s": 3.3773,
+          "read_write_ratio": 0.0093
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.15,
+        "prediction": "benign",
+        "confidence": 0.959,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 0.6009615384652384,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3734,
+          "entropy_delta": 0.0013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0094,
+          "process_cpu_percent": 3.86,
+          "io_write_rate_mb_s": 4.3122,
+          "read_write_ratio": 0.0122
+        }
+      },
+      {
+        "t": 15.19,
+        "prediction": "benign",
+        "confidence": 0.9717,
+        "process": "claude.exe",
+        "raw_events": 19,
+        "features": {
+          "file_modification_rate": 0.9,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3757,
+          "entropy_delta": 0.0022,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0129,
+          "process_cpu_percent": 3.12,
+          "io_write_rate_mb_s": 3.5153,
+          "read_write_ratio": 0.0133
+        }
+      },
+      {
+        "t": 25.07,
+        "prediction": "benign",
+        "confidence": 0.9755,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.0998402555904416,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3774,
+          "entropy_delta": 0.0003,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 3.04,
+          "io_write_rate_mb_s": 3.0917,
+          "read_write_ratio": 0.0144
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 10.2,
+        "prediction": "benign",
+        "confidence": 0.9761,
+        "process": "claude.exe",
+        "raw_events": 19,
+        "features": {
+          "file_modification_rate": 1.0016025640970516,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3715,
+          "entropy_delta": 0.0012,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0098,
+          "process_cpu_percent": 3.17,
+          "io_write_rate_mb_s": 2.8745,
+          "read_write_ratio": 0.0144
+        }
+      },
+      {
+        "t": 20.12,
+        "prediction": "benign",
+        "confidence": 0.9798,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 0.7,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3735,
+          "entropy_delta": 0.002,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0063,
+          "process_cpu_percent": 1.76,
+          "io_write_rate_mb_s": 0.3305,
+          "read_write_ratio": 0.083
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.38,
+        "prediction": "benign",
+        "confidence": 0.7848,
+        "process": null,
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 49.62779156293137,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.4,
+        "prediction": "benign",
+        "confidence": 0.7806,
+        "process": "python.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 50.37783375350316,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 6.3,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.36,
+        "prediction": "benign",
+        "confidence": 0.7999,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 20.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.36,
+          "io_write_rate_mb_s": 3.1619,
+          "read_write_ratio": 0.8678
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.61,
+        "prediction": "benign",
+        "confidence": 0.8684,
+        "process": "chrome.exe",
+        "raw_events": 55,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 7.974481658779542,
+          "file_deletion_rate": 2.9904306220423282,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 8.89,
+          "io_write_rate_mb_s": 2.133,
+          "read_write_ratio": 0.0824
+        }
+      },
+      {
+        "t": 8.29,
+        "prediction": "benign",
+        "confidence": 0.9121,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 9.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3676,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.97,
+          "io_write_rate_mb_s": 0.1993,
+          "read_write_ratio": 0.4152
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 11.05,
+        "prediction": "benign",
+        "confidence": 0.8199,
+        "process": "Registry",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 9.984025559044161,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.02,
+          "io_write_rate_mb_s": 0.3464,
+          "read_write_ratio": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.99,
+        "prediction": "benign",
+        "confidence": 0.8177,
+        "process": "System",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 10.015022533814713,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.12,
+          "io_write_rate_mb_s": 0.077,
+          "read_write_ratio": 0.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.88,
+        "prediction": "benign",
+        "confidence": 0.8877,
+        "process": "python.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.49603174604526584,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9861,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.26,
+        "prediction": "benign",
+        "confidence": 0.8428,
+        "process": "XboxPcApp.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.987,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 4.75,
+          "io_write_rate_mb_s": 2.1791,
+          "read_write_ratio": 0.0003
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.04,
+        "prediction": "benign",
+        "confidence": 0.8802,
+        "process": "python.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9861,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.56,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.29,
+        "prediction": "benign",
+        "confidence": 0.807,
+        "process": "chrome.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.987,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 10.24,
+          "io_write_rate_mb_s": 3.8598,
+          "read_write_ratio": 0.048
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.56,
+        "prediction": "benign",
+        "confidence": 0.8841,
+        "process": "chrome.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9861,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.21,
+          "io_write_rate_mb_s": 1.02,
+          "read_write_ratio": 0.0454
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.69,
+        "prediction": "benign",
+        "confidence": 0.8788,
+        "process": "chrome.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.987,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.79,
+          "io_write_rate_mb_s": 1.3789,
+          "read_write_ratio": 0.0536
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.68,
+        "prediction": "benign",
+        "confidence": 0.9687,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 50.78720162413349,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3382,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 7.56,
+          "io_write_rate_mb_s": 5.3645,
+          "read_write_ratio": 0.0258
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.72,
+        "prediction": "benign",
+        "confidence": 0.973,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 49.603174604526586,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3385,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 7.28,
+          "io_write_rate_mb_s": 2.4764,
+          "read_write_ratio": 0.0655
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.61,
+        "prediction": "benign",
+        "confidence": 0.9632,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 20.060180541681092,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3382,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.52,
+          "io_write_rate_mb_s": 0.9108,
+          "read_write_ratio": 0.0962
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.49,
+        "prediction": "benign",
+        "confidence": 0.9597,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 19.87676406251253,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3385,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.04,
+          "io_write_rate_mb_s": 0.4855,
+          "read_write_ratio": 0.1208
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.34,
+        "prediction": "benign",
+        "confidence": 0.9668,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 10.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3382,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.43,
+          "io_write_rate_mb_s": 0.6034,
+          "read_write_ratio": 0.1359
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.5,
+        "prediction": "benign",
+        "confidence": 0.9792,
+        "process": "chrome.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 9.984025559160203,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3385,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 4.82,
+          "io_write_rate_mb_s": 1.2395,
+          "read_write_ratio": 0.1142
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.0,
+        "prediction": "benign",
+        "confidence": 0.9294,
+        "process": "chrome.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 30.2419354830334,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 30.2419354830334,
+          "entropy_mean": 4.3726,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 4.44,
+          "io_write_rate_mb_s": 0.553,
+          "read_write_ratio": 0.0996
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.11,
+        "prediction": "benign",
+        "confidence": 0.9255,
+        "process": "chrome.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 30.47232097448009,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 30.47232097448009,
+          "entropy_mean": 4.3722,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.39,
+          "io_write_rate_mb_s": 0.1862,
+          "read_write_ratio": 0.3137
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.7,
+        "prediction": "benign",
+        "confidence": 0.9394,
+        "process": "chrome.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 11.964107676935765,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 11.964107676935765,
+          "entropy_mean": 4.3726,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 5.82,
+          "io_write_rate_mb_s": 1.083,
+          "read_write_ratio": 0.156
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.17,
+        "prediction": "benign",
+        "confidence": 0.9352,
+        "process": "chrome.exe",
+        "raw_events": 53,
+        "features": {
+          "file_modification_rate": 4.012036108336218,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 6.61985957875476,
+          "entropy_mean": 4.3727,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 5.06,
+          "io_write_rate_mb_s": 0.0824,
+          "read_write_ratio": 7.6441
+        }
+      },
+      {
+        "t": 9.11,
+        "prediction": "benign",
+        "confidence": 0.9244,
+        "process": "chrome.exe",
+        "raw_events": 67,
+        "features": {
+          "file_modification_rate": 7.950705625005013,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.366726296878384,
+          "entropy_mean": 4.372,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.06,
+          "io_write_rate_mb_s": 0.4815,
+          "read_write_ratio": 0.1244
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.48,
+        "prediction": "benign",
+        "confidence": 0.9255,
+        "process": "chrome.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 5.990415335496122,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.990415335496122,
+          "entropy_mean": 4.3726,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.93,
+          "io_write_rate_mb_s": 0.6805,
+          "read_write_ratio": 0.083
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 11.11,
+        "prediction": "benign",
+        "confidence": 0.9195,
+        "process": "chrome.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 6.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 6.0,
+          "entropy_mean": 4.3722,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.58,
+          "io_write_rate_mb_s": 0.7996,
+          "read_write_ratio": 0.0789
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.77,
+        "prediction": "benign",
+        "confidence": 0.8584,
+        "process": "python.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 30.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9965,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 6.64,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.94,
+        "prediction": "benign",
+        "confidence": 0.8612,
+        "process": "python.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 30.2419354830334,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9963,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.11,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.58,
+        "prediction": "benign",
+        "confidence": 0.8616,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 12.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9962,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.15,
+          "io_write_rate_mb_s": 0.5242,
+          "read_write_ratio": 0.152
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.64,
+        "prediction": "benign",
+        "confidence": 0.8624,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 12.036108325008655,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.996,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.94,
+          "io_write_rate_mb_s": 0.6975,
+          "read_write_ratio": 0.1282
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.4,
+        "prediction": "benign",
+        "confidence": 0.8574,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 5.990415335496122,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.996,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.94,
+          "io_write_rate_mb_s": 0.5455,
+          "read_write_ratio": 0.1314
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 9.57,
+        "prediction": "benign",
+        "confidence": 0.8571,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 6.0090135202888275,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9967,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.12,
+          "io_write_rate_mb_s": 0.7001,
+          "read_write_ratio": 0.1645
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.98,
+        "prediction": "benign",
+        "confidence": 0.8569,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 20.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.04,
+          "io_write_rate_mb_s": 0.5111,
+          "read_write_ratio": 0.1224
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.82,
+        "prediction": "benign",
+        "confidence": 0.8471,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 20.16129032320527,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 6.69,
+          "io_write_rate_mb_s": 1.6707,
+          "read_write_ratio": 0.1097
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 0.26,
+        "prediction": "benign",
+        "confidence": 0.8836,
+        "process": "chrome.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9976,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.94,
+          "io_write_rate_mb_s": 0.6822,
+          "read_write_ratio": 0.1292
+        }
+      },
+      {
+        "t": 6.74,
+        "prediction": "benign",
+        "confidence": 0.8574,
+        "process": "chrome.exe",
+        "raw_events": 39,
+        "features": {
+          "file_modification_rate": 7.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.15,
+          "io_write_rate_mb_s": 0.4767,
+          "read_write_ratio": 0.1224
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 0.63,
+        "prediction": "benign",
+        "confidence": 0.8841,
+        "process": "chrome.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.4044943820397935,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.26,
+          "io_write_rate_mb_s": 0.6441,
+          "read_write_ratio": 0.1256
+        }
+      },
+      {
+        "t": 7.06,
+        "prediction": "benign",
+        "confidence": 0.8596,
+        "process": "chrome.exe",
+        "raw_events": 33,
+        "features": {
+          "file_modification_rate": 6.55802861684365,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.9,
+          "io_write_rate_mb_s": 0.6547,
+          "read_write_ratio": 0.1178
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.76,
+        "prediction": "benign",
+        "confidence": 0.8641,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.9940089865146486,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.12,
+          "io_write_rate_mb_s": 0.7399,
+          "read_write_ratio": 0.1059
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.43,
+        "prediction": "benign",
+        "confidence": 0.8641,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 4.0064102563882065,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 4.32,
+          "io_write_rate_mb_s": 0.8547,
+          "read_write_ratio": 0.1033
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8869
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 5.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.8869,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 9.920634920332443,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 9.920634920332443,
+          "entropy_mean": 7.8949,
+          "entropy_delta": 3.28,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3592,
+          "process_cpu_percent": 3.58,
+          "io_write_rate_mb_s": 0.5959,
+          "read_write_ratio": 0.1075
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8998
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 2.95,
+        "prediction": "ransomware_like",
+        "confidence": 0.8998,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 10.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 7.8656,
+          "entropy_delta": 3.2522,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3697,
+          "process_cpu_percent": 10.64,
+          "io_write_rate_mb_s": 1.1939,
+          "read_write_ratio": 0.0803
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8935
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 1.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.8935,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.9872408292972317,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.9872408292972317,
+          "entropy_mean": 7.8949,
+          "entropy_delta": 3.28,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3592,
+          "process_cpu_percent": 3.86,
+          "io_write_rate_mb_s": 0.7969,
+          "read_write_ratio": 0.0798
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.7756
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 3.1,
+        "prediction": "ransomware_like",
+        "confidence": 0.7756,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.9880358923119217,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.9880358923119217,
+          "entropy_mean": 7.8654,
+          "entropy_delta": 3.252,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3697,
+          "process_cpu_percent": 4.97,
+          "io_write_rate_mb_s": 0.0827,
+          "read_write_ratio": 7.7752
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9075
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 2.19,
+        "prediction": "ransomware_like",
+        "confidence": 0.9075,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 1.9970044932573243,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 1.9970044932573243,
+          "entropy_mean": 7.8947,
+          "entropy_delta": 3.2799,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3592,
+          "process_cpu_percent": 2.66,
+          "io_write_rate_mb_s": 0.7616,
+          "read_write_ratio": 0.1224
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.907
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 8.82,
+        "prediction": "ransomware_like",
+        "confidence": 0.907,
+        "process": "chrome.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 2.003205128217461,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 2.003205128217461,
+          "entropy_mean": 7.8654,
+          "entropy_delta": 3.252,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3697,
+          "process_cpu_percent": 4.49,
+          "io_write_rate_mb_s": 0.7421,
+          "read_write_ratio": 0.1258
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.7501
+    ],
+    "attributed_processes": [
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 3.69,
+        "prediction": "ransomware_like",
+        "confidence": 0.7501,
+        "process": "python.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 15.1209677415167,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 15.1209677415167,
+          "entropy_mean": 7.9797,
+          "entropy_delta": 3.6099,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0069,
+          "process_cpu_percent": 6.2,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8948
+    ],
+    "attributed_processes": [
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 3.36,
+        "prediction": "ransomware_like",
+        "confidence": 0.8948,
+        "process": "python.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 14.88833746887941,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 14.88833746887941,
+          "entropy_mean": 7.9838,
+          "entropy_delta": 3.6143,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0057,
+          "process_cpu_percent": 6.05,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9024
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 2.65,
+        "prediction": "ransomware_like",
+        "confidence": 0.9024,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 6.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 6.0,
+          "entropy_mean": 7.9796,
+          "entropy_delta": 3.6098,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0069,
+          "process_cpu_percent": 1.95,
+          "io_write_rate_mb_s": 0.8308,
+          "read_write_ratio": 0.0985
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9038
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 2.85,
+        "prediction": "ransomware_like",
+        "confidence": 0.9038,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 5.982053838467882,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.982053838467882,
+          "entropy_mean": 7.9832,
+          "entropy_delta": 3.6137,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0057,
+          "process_cpu_percent": 1.99,
+          "io_write_rate_mb_s": 0.9302,
+          "read_write_ratio": 0.104
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9039
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 2.23,
+        "prediction": "ransomware_like",
+        "confidence": 0.9039,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.0,
+          "entropy_mean": 7.9799,
+          "entropy_delta": 3.6101,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0069,
+          "process_cpu_percent": 2.22,
+          "io_write_rate_mb_s": 0.7439,
+          "read_write_ratio": 0.0945
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9065
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 10.28,
+        "prediction": "ransomware_like",
+        "confidence": 0.9065,
+        "process": "chrome.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.0,
+          "entropy_mean": 7.9835,
+          "entropy_delta": 3.614,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0057,
+          "process_cpu_percent": 3.1,
+          "io_write_rate_mb_s": 0.9154,
+          "read_write_ratio": 0.085
+        }
+      }
+    ]
+  }
+]

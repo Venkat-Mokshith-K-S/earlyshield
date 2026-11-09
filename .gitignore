@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+backend/.env
+backend/recovery_vault/
+
+node_modules/
+frontend/dist/
+frontend/node_modules/.vite/
+frontend/node_modules/.cache/
+frontend/.env.local
+
+ml/models/*.joblib
+ml/data/*.csv
+
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Production secrets and certificates
+.env
+certs/
+
+# Local monitoring data (demo corpora, simulated-attack leftovers)
+watched_folder/
+
+# LaTeX build output
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.pdf
+paper/*.synctex.gz

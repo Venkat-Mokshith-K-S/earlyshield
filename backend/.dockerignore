@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+recovery_vault/
+evaluation/results*/
+.env
+.env.*
+!.env.example
