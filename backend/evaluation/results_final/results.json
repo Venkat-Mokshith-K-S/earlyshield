@@ -1,0 +1,6740 @@
+[
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9358
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 5.73,
+        "prediction": "ransomware_like",
+        "confidence": 0.9358,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 50.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9352,
+          "entropy_delta": 3.6346,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 5.76,
+          "io_write_rate_mb_s": 10.081,
+          "read_write_ratio": 0.0142
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.27,
+    "ttd_s": 5.73,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4229.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.943
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 4.76,
+        "prediction": "ransomware_like",
+        "confidence": 0.943,
+        "process": "chrome.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 50.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9375,
+          "entropy_delta": 3.6374,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 10.99,
+          "io_write_rate_mb_s": 2.4642,
+          "read_write_ratio": 0.1267
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.18,
+    "ttd_s": 4.76,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4062.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9434
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 5.34,
+        "prediction": "ransomware_like",
+        "confidence": 0.9434,
+        "process": "chrome.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 51.2950736434076,
+          "file_rename_rate": 50.787201627136234,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9362,
+          "entropy_delta": 3.6331,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 10.6,
+          "io_write_rate_mb_s": 0.9194,
+          "read_write_ratio": 0.1327
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 5.33,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4111.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.9092,
+      0.9291
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 152,
+    "windows": [
+      {
+        "t": 2.16,
+        "prediction": "ransomware_like",
+        "confidence": 0.9092,
+        "process": "claude.exe",
+        "raw_events": 92,
+        "features": {
+          "file_modification_rate": 8.024072216672437,
+          "file_rename_rate": 8.024072216672437,
+          "file_deletion_rate": 2.407221665001731,
+          "entropy_mean": 7.9704,
+          "entropy_delta": 3.4809,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 2.01,
+          "io_write_rate_mb_s": 3.402,
+          "read_write_ratio": 0.011
+        }
+      },
+      {
+        "t": 8.53,
+        "prediction": "ransomware_like",
+        "confidence": 0.9291,
+        "process": "claude.exe",
+        "raw_events": 109,
+        "features": {
+          "file_modification_rate": 12.163509471551361,
+          "file_rename_rate": 9.571286141548612,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9126,
+          "entropy_delta": 3.7688,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 1.47,
+          "io_write_rate_mb_s": 2.6123,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.17,
+    "ttd_s": 2.16,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1044.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.9089,
+      0.9344
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 150,
+    "windows": [
+      {
+        "t": 2.19,
+        "prediction": "ransomware_like",
+        "confidence": 0.9089,
+        "process": "claude.exe",
+        "raw_events": 90,
+        "features": {
+          "file_modification_rate": 7.976071784623843,
+          "file_rename_rate": 7.976071784623843,
+          "file_deletion_rate": 1.9940179461559608,
+          "entropy_mean": 7.9743,
+          "entropy_delta": 3.4843,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 1.46,
+          "io_write_rate_mb_s": 3.6956,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 8.6,
+        "prediction": "ransomware_like",
+        "confidence": 0.9344,
+        "process": "claude.exe",
+        "raw_events": 111,
+        "features": {
+          "file_modification_rate": 12.2,
+          "file_rename_rate": 10.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9134,
+          "entropy_delta": 3.766,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.81,
+          "io_write_rate_mb_s": 2.409,
+          "read_write_ratio": 0.0115
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.18,
+    "ttd_s": 2.19,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 930.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9419
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 6.23,
+        "prediction": "ransomware_like",
+        "confidence": 0.9419,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 20.2607823470979,
+          "file_rename_rate": 20.060180541681092,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.936,
+          "entropy_delta": 3.6329,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 1.58,
+          "io_write_rate_mb_s": 3.6824,
+          "read_write_ratio": 0.0132
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.17,
+    "ttd_s": 6.23,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2008.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.941,
+      0.9334
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 148,
+    "windows": [
+      {
+        "t": 1.35,
+        "prediction": "ransomware_like",
+        "confidence": 0.941,
+        "process": "claude.exe",
+        "raw_events": 94,
+        "features": {
+          "file_modification_rate": 4.593110334491846,
+          "file_rename_rate": 4.593110334491846,
+          "file_deletion_rate": 0.19970044932573242,
+          "entropy_mean": 7.9724,
+          "entropy_delta": 3.5872,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 3.0261,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 11.46,
+        "prediction": "ransomware_like",
+        "confidence": 0.9334,
+        "process": "claude.exe",
+        "raw_events": 107,
+        "features": {
+          "file_modification_rate": 5.508262393598092,
+          "file_rename_rate": 5.207811717583651,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9041,
+          "entropy_delta": 3.6748,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.52,
+          "io_write_rate_mb_s": 2.493,
+          "read_write_ratio": 0.0112
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 1.35,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 791.5,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9161
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 4.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.9161,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 10.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9366,
+          "entropy_delta": 3.6365,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 3.3483,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.25,
+    "ttd_s": 4.65,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2864.9,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9194
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 10.87,
+        "prediction": "ransomware_like",
+        "confidence": 0.9194,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 10.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9363,
+          "entropy_delta": 3.6332,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.79,
+          "io_write_rate_mb_s": 3.1399,
+          "read_write_ratio": 0.0126
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 10.87,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2113.8,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9472,
+      0.9233,
+      0.9379
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 181,
+    "windows": [
+      {
+        "t": 7.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.9472,
+        "process": "claude.exe",
+        "raw_events": 80,
+        "features": {
+          "file_modification_rate": 20.314880649653393,
+          "file_rename_rate": 19.299136617170724,
+          "file_deletion_rate": 1.0157440324826696,
+          "entropy_mean": 7.9731,
+          "entropy_delta": 3.6296,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.05,
+          "io_write_rate_mb_s": 2.3223,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 8.7,
+        "prediction": "ransomware_like",
+        "confidence": 0.9233,
+        "process": "claude.exe",
+        "raw_events": 82,
+        "features": {
+          "file_modification_rate": 12.3792270530113,
+          "file_rename_rate": 11.775362318718066,
+          "file_deletion_rate": 0.6038647342932342,
+          "entropy_mean": 7.9691,
+          "entropy_delta": 3.6437,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.05,
+          "io_write_rate_mb_s": 2.3223,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 12.47,
+        "prediction": "ransomware_like",
+        "confidence": 0.9379,
+        "process": "claude.exe",
+        "raw_events": 39,
+        "features": {
+          "file_modification_rate": 4.9043648847720664,
+          "file_rename_rate": 4.4139283962948594,
+          "file_deletion_rate": 0.2452182442386033,
+          "entropy_mean": 7.7927,
+          "entropy_delta": 3.6281,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 0.12,
+          "io_write_rate_mb_s": 2.8216,
+          "read_write_ratio": 0.0101
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 7.26,
+    "files_encrypted_before_detection": 73,
+    "responded": true,
+    "response_ms": 846.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 6,
+    "windows_flagged": 6,
+    "detected": true,
+    "confidences": [
+      0.9461,
+      0.9216,
+      0.9228,
+      0.9222,
+      0.9224,
+      0.9285
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 191,
+    "windows": [
+      {
+        "t": 2.28,
+        "prediction": "ransomware_like",
+        "confidence": 0.9461,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 4.570848146172014,
+          "file_rename_rate": 4.570848146172014,
+          "file_deletion_rate": 1.0157440324826696,
+          "entropy_mean": 7.9792,
+          "entropy_delta": 3.5894,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 4.297,
+          "read_write_ratio": 0.0115
+        }
+      },
+      {
+        "t": 5.9,
+        "prediction": "ransomware_like",
+        "confidence": 0.9216,
+        "process": "claude.exe",
+        "raw_events": 38,
+        "features": {
+          "file_modification_rate": 9.920634920905318,
+          "file_rename_rate": 8.928571428814786,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9825,
+          "entropy_delta": 3.6939,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 2.7447,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 6.77,
+        "prediction": "ransomware_like",
+        "confidence": 0.9228,
+        "process": "claude.exe",
+        "raw_events": 46,
+        "features": {
+          "file_modification_rate": 9.450171821389015,
+          "file_rename_rate": 9.450171821389015,
+          "file_deletion_rate": 0.8591065292171831,
+          "entropy_mean": 7.9752,
+          "entropy_delta": 3.6006,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 2.7447,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 9.71,
+        "prediction": "ransomware_like",
+        "confidence": 0.9222,
+        "process": "claude.exe",
+        "raw_events": 32,
+        "features": {
+          "file_modification_rate": 10.265700482624146,
+          "file_rename_rate": 9.05797101408013,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9733,
+          "entropy_delta": 3.7216,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.7084,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 10.61,
+        "prediction": "ransomware_like",
+        "confidence": 0.9224,
+        "process": "claude.exe",
+        "raw_events": 44,
+        "features": {
+          "file_modification_rate": 9.597806215873277,
+          "file_rename_rate": 9.597806215873277,
+          "file_deletion_rate": 0.9140767824641216,
+          "entropy_mean": 7.9665,
+          "entropy_delta": 3.5945,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.7084,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 13.48,
+        "prediction": "ransomware_like",
+        "confidence": 0.9285,
+        "process": "claude.exe",
+        "raw_events": 21,
+        "features": {
+          "file_modification_rate": 6.564551422393054,
+          "file_rename_rate": 4.92341356679479,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.6609,
+          "entropy_delta": 3.6693,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 2.1308,
+          "read_write_ratio": 0.0118
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 2.27,
+    "files_encrypted_before_detection": 23,
+    "responded": true,
+    "response_ms": 207.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 6,
+    "windows_flagged": 6,
+    "detected": true,
+    "confidences": [
+      0.9388,
+      0.9307,
+      0.9272,
+      0.9296,
+      0.933,
+      0.9344
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 189,
+    "windows": [
+      {
+        "t": 2.51,
+        "prediction": "ransomware_like",
+        "confidence": 0.9388,
+        "process": "claude.exe",
+        "raw_events": 23,
+        "features": {
+          "file_modification_rate": 5.541561712885348,
+          "file_rename_rate": 5.541561712885348,
+          "file_deletion_rate": 0.5037783375350315,
+          "entropy_mean": 7.979,
+          "entropy_delta": 3.6228,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.19,
+          "io_write_rate_mb_s": 5.2004,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 5.94,
+        "prediction": "ransomware_like",
+        "confidence": 0.9307,
+        "process": "claude.exe",
+        "raw_events": 37,
+        "features": {
+          "file_modification_rate": 9.42928039695696,
+          "file_rename_rate": 8.933002481327646,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9619,
+          "entropy_delta": 3.7439,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 2.7104,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 6.78,
+        "prediction": "ransomware_like",
+        "confidence": 0.9272,
+        "process": "claude.exe",
+        "raw_events": 50,
+        "features": {
+          "file_modification_rate": 11.374407583013696,
+          "file_rename_rate": 11.374407583013696,
+          "file_deletion_rate": 0.9478672985844747,
+          "entropy_mean": 7.978,
+          "entropy_delta": 3.6035,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 2.7104,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 9.75,
+        "prediction": "ransomware_like",
+        "confidence": 0.9296,
+        "process": "claude.exe",
+        "raw_events": 28,
+        "features": {
+          "file_modification_rate": 7.936507936449274,
+          "file_rename_rate": 6.878306878256038,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9721,
+          "entropy_delta": 3.6648,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.3548,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 11.09,
+        "prediction": "ransomware_like",
+        "confidence": 0.933,
+        "process": "claude.exe",
+        "raw_events": 39,
+        "features": {
+          "file_modification_rate": 9.00473933655251,
+          "file_rename_rate": 9.00473933655251,
+          "file_deletion_rate": 0.47393364929223736,
+          "entropy_mean": 7.9782,
+          "entropy_delta": 3.529,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.3548,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 13.7,
+        "prediction": "ransomware_like",
+        "confidence": 0.9344,
+        "process": "claude.exe",
+        "raw_events": 24,
+        "features": {
+          "file_modification_rate": 4.245591116869269,
+          "file_rename_rate": 3.5924232527355353,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.6791,
+          "entropy_delta": 3.7194,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.3768,
+          "read_write_ratio": 0.011
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 2.51,
+    "files_encrypted_before_detection": 26,
+    "responded": true,
+    "response_ms": 247.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9201,
+      0.9356,
+      0.9195
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 138,
+    "windows": [
+      {
+        "t": 1.18,
+        "prediction": "ransomware_like",
+        "confidence": 0.9201,
+        "process": "claude.exe",
+        "raw_events": 14,
+        "features": {
+          "file_modification_rate": 1.4044943820069875,
+          "file_rename_rate": 1.4044943820069875,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9764,
+          "entropy_delta": 3.6316,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.23,
+          "io_write_rate_mb_s": 3.5609,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 6.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.9356,
+        "process": "claude.exe",
+        "raw_events": 62,
+        "features": {
+          "file_modification_rate": 6.180223285554145,
+          "file_rename_rate": 6.180223285554145,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9708,
+          "entropy_delta": 3.6115,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.4839,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 13.68,
+        "prediction": "ransomware_like",
+        "confidence": 0.9195,
+        "process": "claude.exe",
+        "raw_events": 125,
+        "features": {
+          "file_modification_rate": 12.640449438062888,
+          "file_rename_rate": 12.038523274345607,
+          "file_deletion_rate": 0.4012841091448536,
+          "entropy_mean": 7.913,
+          "entropy_delta": 3.6463,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.3277,
+          "read_write_ratio": 0.0112
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 1.18,
+    "files_encrypted_before_detection": 12,
+    "responded": true,
+    "response_ms": 128.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9296,
+      0.9324,
+      0.9215
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 155,
+    "windows": [
+      {
+        "t": 3.05,
+        "prediction": "ransomware_like",
+        "confidence": 0.9296,
+        "process": "claude.exe",
+        "raw_events": 48,
+        "features": {
+          "file_modification_rate": 4.814443330003462,
+          "file_rename_rate": 4.814443330003462,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9761,
+          "entropy_delta": 3.6267,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.31,
+          "io_write_rate_mb_s": 3.5818,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 8.56,
+        "prediction": "ransomware_like",
+        "confidence": 0.9324,
+        "process": "claude.exe",
+        "raw_events": 62,
+        "features": {
+          "file_modification_rate": 6.181455633083479,
+          "file_rename_rate": 6.181455633083479,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9713,
+          "entropy_delta": 3.5759,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 2.5736,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 14.97,
+        "prediction": "ransomware_like",
+        "confidence": 0.9215,
+        "process": "claude.exe",
+        "raw_events": 91,
+        "features": {
+          "file_modification_rate": 9.227683049173303,
+          "file_rename_rate": 8.82647943833968,
+          "file_deletion_rate": 0.2006018054168109,
+          "entropy_mean": 7.8948,
+          "entropy_delta": 3.6857,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 2.5736,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 3.05,
+    "files_encrypted_before_detection": 31,
+    "responded": true,
+    "response_ms": 431.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9206,
+      0.9324,
+      0.9367
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 174,
+    "windows": [
+      {
+        "t": 5.28,
+        "prediction": "ransomware_like",
+        "confidence": 0.9206,
+        "process": "claude.exe",
+        "raw_events": 86,
+        "features": {
+          "file_modification_rate": 8.627608346614352,
+          "file_rename_rate": 8.226324237469498,
+          "file_deletion_rate": 0.4012841091448536,
+          "entropy_mean": 7.9771,
+          "entropy_delta": 3.6468,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.37,
+          "io_write_rate_mb_s": 3.5365,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 10.42,
+        "prediction": "ransomware_like",
+        "confidence": 0.9324,
+        "process": "claude.exe",
+        "raw_events": 62,
+        "features": {
+          "file_modification_rate": 6.161796859521467,
+          "file_rename_rate": 6.161796859521467,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9731,
+          "entropy_delta": 3.6548,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.19,
+          "io_write_rate_mb_s": 2.6411,
+          "read_write_ratio": 0.0104
+        }
+      },
+      {
+        "t": 15.04,
+        "prediction": "ransomware_like",
+        "confidence": 0.9367,
+        "process": "claude.exe",
+        "raw_events": 53,
+        "features": {
+          "file_modification_rate": 5.4336888709553905,
+          "file_rename_rate": 4.829945663071459,
+          "file_deletion_rate": 0.40249547192262153,
+          "entropy_mean": 7.8289,
+          "entropy_delta": 3.5849,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 0.19,
+          "io_write_rate_mb_s": 2.6411,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 5.28,
+    "files_encrypted_before_detection": 53,
+    "responded": true,
+    "response_ms": 828.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.9363,
+      0.9482
+    ],
+    "attributed_processes": [
+      "System",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 135,
+    "windows": [
+      {
+        "t": 4.06,
+        "prediction": "ransomware_like",
+        "confidence": 0.9363,
+        "process": "claude.exe",
+        "raw_events": 70,
+        "features": {
+          "file_modification_rate": 3.494408945665456,
+          "file_rename_rate": 3.494408945665456,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9707,
+          "entropy_delta": 3.6707,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.29,
+          "io_write_rate_mb_s": 2.9941,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 14.79,
+        "prediction": "ransomware_like",
+        "confidence": 0.9482,
+        "process": "System",
+        "raw_events": 132,
+        "features": {
+          "file_modification_rate": 6.6,
+          "file_rename_rate": 6.4,
+          "file_deletion_rate": 0.1,
+          "entropy_mean": 7.9171,
+          "entropy_delta": 3.6158,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 17.04,
+          "io_write_rate_mb_s": 0.6396,
+          "read_write_ratio": 0.0006
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 4.06,
+    "files_encrypted_before_detection": 41,
+    "responded": true,
+    "response_ms": 778.9,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.7888,
+      0.7888
+    ],
+    "attributed_processes": [
+      "MsMpEng.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 135,
+    "windows": [
+      {
+        "t": 4.55,
+        "prediction": "ransomware_like",
+        "confidence": 0.7888,
+        "process": "MsMpEng.exe",
+        "raw_events": 70,
+        "features": {
+          "file_modification_rate": 3.4947578632003173,
+          "file_rename_rate": 3.4947578632003173,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9744,
+          "entropy_delta": 3.6268,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 7.52,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 14.98,
+        "prediction": "ransomware_like",
+        "confidence": 0.7888,
+        "process": "MsMpEng.exe",
+        "raw_events": 131,
+        "features": {
+          "file_modification_rate": 6.6,
+          "file_rename_rate": 6.4,
+          "file_deletion_rate": 0.1,
+          "entropy_mean": 7.9177,
+          "entropy_delta": 3.6429,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.72,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 4.54,
+    "files_encrypted_before_detection": 46,
+    "responded": true,
+    "response_ms": 666.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.7884,
+      0.7895
+    ],
+    "attributed_processes": [
+      "MsMpEng.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 143,
+    "windows": [
+      {
+        "t": 5.67,
+        "prediction": "ransomware_like",
+        "confidence": 0.7884,
+        "process": "MsMpEng.exe",
+        "raw_events": 86,
+        "features": {
+          "file_modification_rate": 4.306459689540326,
+          "file_rename_rate": 4.306459689540326,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9691,
+          "entropy_delta": 3.6379,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 7.41,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 15.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.7895,
+        "process": "MsMpEng.exe",
+        "raw_events": 115,
+        "features": {
+          "file_modification_rate": 5.79131303044624,
+          "file_rename_rate": 5.591612581120508,
+          "file_deletion_rate": 0.09985022466286621,
+          "entropy_mean": 7.9111,
+          "entropy_delta": 3.6288,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 6.9,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 5.67,
+    "files_encrypted_before_detection": 57,
+    "responded": true,
+    "response_ms": 863.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 20,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.5423
+    ],
+    "attributed_processes": [
+      "?"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 1,
+    "restore_actions": 1,
+    "windows": [
+      {
+        "t": 2.98,
+        "prediction": "ransomware_like",
+        "confidence": 0.5423,
+        "process": null,
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9895,
+          "entropy_delta": 3.6237,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0009,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 3.56,
+        "prediction": "benign",
+        "confidence": 0.5194,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.3889154324011344,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9308,
+          "entropy_delta": 3.706,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.006,
+          "process_cpu_percent": 12.12,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 6.08,
+        "prediction": "benign",
+        "confidence": 0.52,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5731515469269766,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9845,
+          "entropy_delta": 3.5351,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 12.12,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 11.49,
+        "prediction": "benign",
+        "confidence": 0.5169,
+        "process": "MsMpEng.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 4.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9793,
+          "entropy_delta": 3.5231,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 6.44,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 11.63,
+        "prediction": "benign",
+        "confidence": 0.5303,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.8416206261336403,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9749,
+          "entropy_delta": 3.6411,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 6.25,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 15.37,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.1881838074643514,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.974,
+          "entropy_delta": 3.7151,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.25,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 15.52,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9540791401856192,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9603,
+          "entropy_delta": 3.4607,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0032,
+          "process_cpu_percent": 6.18,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 19.42,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.072196620615948,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9755,
+          "entropy_delta": 3.6307,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.18,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 19.57,
+        "prediction": "benign",
+        "confidence": 0.52,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9102196753314715,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9872,
+          "entropy_delta": 3.6179,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0011,
+          "process_cpu_percent": 10.65,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 23.38,
+        "prediction": "benign",
+        "confidence": 0.5231,
+        "process": "MsMpEng.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.0493179432953004,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9881,
+          "entropy_delta": 3.5009,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0011,
+          "process_cpu_percent": 10.65,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 23.53,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9389238972694198,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9663,
+          "entropy_delta": 3.6341,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 6.54,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 27.41,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.048131080410632,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9711,
+          "entropy_delta": 3.643,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 6.54,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 27.55,
+        "prediction": "benign",
+        "confidence": 0.5281,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9249278152259095,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.966,
+          "entropy_delta": 3.7039,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 6.42,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 31.34,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0811654526313,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9657,
+          "entropy_delta": 3.7347,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 6.42,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 31.53,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9827,
+          "entropy_delta": 3.5748,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 35.37,
+        "prediction": "benign",
+        "confidence": 0.5389,
+        "process": "MsMpEng.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.9925558312586273,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9598,
+          "entropy_delta": 3.7877,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0038,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 35.54,
+        "prediction": "benign",
+        "confidence": 0.525,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.4801587300831107,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9882,
+          "entropy_delta": 3.691,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.001,
+          "process_cpu_percent": 6.5,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 39.31,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.536098310307974,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.948,
+          "entropy_delta": 3.4937,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0041,
+          "process_cpu_percent": 6.5,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 39.51,
+        "prediction": "benign",
+        "confidence": 0.5284,
+        "process": "MsMpEng.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 2.976190476271595,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9666,
+          "entropy_delta": 3.697,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 6.03,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 43.29,
+        "prediction": "benign",
+        "confidence": 0.5314,
+        "process": "MsMpEng.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.4923682914637406,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.967,
+          "entropy_delta": 3.9938,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 6.03,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 2.97,
+    "files_encrypted_before_detection": 6,
+    "responded": true,
+    "response_ms": 448.6,
+    "files_intact_after": 21,
+    "files_lost_after": 79,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 21,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.81,
+        "prediction": "benign",
+        "confidence": 0.5231,
+        "process": "MsMpEng.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.007556675070063,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9657,
+          "entropy_delta": 3.6702,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 12.16,
+          "io_write_rate_mb_s": 0.0156,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 5.6,
+        "prediction": "benign",
+        "confidence": 0.52,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9851116625172547,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9603,
+          "entropy_delta": 3.5841,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0032,
+          "process_cpu_percent": 12.16,
+          "io_write_rate_mb_s": 0.0156,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 5.88,
+        "prediction": "benign",
+        "confidence": 0.5245,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.518891687675158,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9828,
+          "entropy_delta": 3.5668,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 6.59,
+          "io_write_rate_mb_s": 0.0139,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 9.57,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.51209677415167,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9661,
+          "entropy_delta": 3.6482,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 6.59,
+          "io_write_rate_mb_s": 0.0139,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 9.84,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4880952381357975,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9689,
+          "entropy_delta": 3.441,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 13.6,
+        "prediction": "benign",
+        "confidence": 0.5236,
+        "process": "MsMpEng.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 3.4739454094051956,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9755,
+          "entropy_delta": 3.6875,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 13.83,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5113350126050948,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9641,
+          "entropy_delta": 3.6525,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0118,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 17.55,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4888337468879411,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9747,
+          "entropy_delta": 3.8647,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0118,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 17.85,
+        "prediction": "benign",
+        "confidence": 0.5303,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.015113350140126,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9766,
+          "entropy_delta": 3.5479,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 21.54,
+        "prediction": "benign",
+        "confidence": 0.5303,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9851116625172547,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9692,
+          "entropy_delta": 3.7074,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 21.86,
+        "prediction": "benign",
+        "confidence": 0.5284,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.518891687675158,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9818,
+          "entropy_delta": 3.5671,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0098,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 25.53,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.51209677415167,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9714,
+          "entropy_delta": 3.5208,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0098,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 25.85,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9625,
+          "entropy_delta": 3.5748,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0032,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 29.53,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269841810634,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9596,
+          "entropy_delta": 3.8924,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 29.85,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9744,
+          "entropy_delta": 3.4784,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 6.03,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 33.49,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4436958614194322,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9688,
+          "entropy_delta": 3.7294,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 6.03,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 33.85,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0811654526313,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9769,
+          "entropy_delta": 3.6977,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 5.96,
+          "io_write_rate_mb_s": 0.0158,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 37.46,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9784,
+          "entropy_delta": 3.706,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 5.96,
+          "io_write_rate_mb_s": 0.0158,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 37.88,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9802,
+          "entropy_delta": 3.6905,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 6.37,
+          "io_write_rate_mb_s": 0.008,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 41.46,
+        "prediction": "benign",
+        "confidence": 0.5245,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4888337468879411,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9784,
+          "entropy_delta": 3.6172,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 6.37,
+          "io_write_rate_mb_s": 0.008,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 41.82,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5236160487240045,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.99,
+          "entropy_delta": 3.6174,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0009,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.0138,
+          "read_write_ratio": 50.0
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": null,
+    "files_encrypted_before_detection": 80,
+    "responded": false,
+    "response_ms": null,
+    "files_intact_after": 20,
+    "files_lost_after": 80,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 20,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.0,
+        "prediction": "benign",
+        "confidence": 0.52,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9747,
+          "entropy_delta": 3.6084,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 12.21,
+          "io_write_rate_mb_s": 0.0118,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 6.68,
+        "prediction": "benign",
+        "confidence": 0.5213,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.015113350140126,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9875,
+          "entropy_delta": 3.6135,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0011,
+          "process_cpu_percent": 12.21,
+          "io_write_rate_mb_s": 0.0118,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 6.96,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9867,
+          "entropy_delta": 3.5593,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0012,
+          "process_cpu_percent": 6.45,
+          "io_write_rate_mb_s": 0.024,
+          "read_write_ratio": 46.5585
+        }
+      },
+      {
+        "t": 10.68,
+        "prediction": "benign",
+        "confidence": 0.5281,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9851116625172547,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.948,
+          "entropy_delta": 3.7739,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0045,
+          "process_cpu_percent": 6.45,
+          "io_write_rate_mb_s": 0.024,
+          "read_write_ratio": 46.5585
+        }
+      },
+      {
+        "t": 11.03,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.981,
+          "entropy_delta": 3.6097,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 14.65,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9789,
+          "entropy_delta": 3.5659,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 6.35,
+          "io_write_rate_mb_s": 0.0157,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 14.98,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9633,
+          "entropy_delta": 3.5812,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 6.42,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 18.63,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9652,
+          "entropy_delta": 3.7957,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.003,
+          "process_cpu_percent": 6.42,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 18.96,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9789,
+          "entropy_delta": 3.5265,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 6.37,
+          "io_write_rate_mb_s": 0.002,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 22.6,
+        "prediction": "benign",
+        "confidence": 0.5284,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9775,
+          "entropy_delta": 3.6819,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 6.37,
+          "io_write_rate_mb_s": 0.002,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 22.97,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9851,
+          "entropy_delta": 3.6136,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0013,
+          "process_cpu_percent": 6.15,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 26.57,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269841810634,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9648,
+          "entropy_delta": 3.8037,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 6.15,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 26.96,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0314880649653393,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9891,
+          "entropy_delta": 3.6251,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.001,
+          "process_cpu_percent": 6.25,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 30.73,
+        "prediction": "benign",
+        "confidence": 0.5303,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9851116625172547,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9716,
+          "entropy_delta": 3.6343,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 6.25,
+          "io_write_rate_mb_s": 0.0099,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 30.96,
+        "prediction": "benign",
+        "confidence": 0.5264,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9859,
+          "entropy_delta": 3.5497,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0012,
+          "process_cpu_percent": 6.57,
+          "io_write_rate_mb_s": 0.0196,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 34.64,
+        "prediction": "benign",
+        "confidence": 0.5269,
+        "process": "MsMpEng.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9586,
+          "entropy_delta": 3.7236,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0036,
+          "process_cpu_percent": 6.57,
+          "io_write_rate_mb_s": 0.0196,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 34.95,
+        "prediction": "benign",
+        "confidence": 0.532,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5113350126050948,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9799,
+          "entropy_delta": 3.86,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0153,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 38.59,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.4813895781465685,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.973,
+          "entropy_delta": 3.7174,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0153,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 38.99,
+        "prediction": "benign",
+        "confidence": 0.5289,
+        "process": "MsMpEng.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9819,
+          "entropy_delta": 3.4686,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.008,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 42.46,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.964,
+          "entropy_delta": 3.5093,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 6.32,
+          "io_write_rate_mb_s": 0.008,
+          "read_write_ratio": 50.0
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": null,
+    "files_encrypted_before_detection": 80,
+    "responded": false,
+    "response_ms": null,
+    "files_intact_after": 20,
+    "files_lost_after": 80,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 9,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.3,
+        "prediction": "benign",
+        "confidence": 0.5201,
+        "process": "MsMpEng.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2006018054168109,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9914,
+          "entropy_delta": 3.6213,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0007,
+          "process_cpu_percent": 9.28,
+          "io_write_rate_mb_s": 0.0173,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 8.11,
+        "prediction": "benign",
+        "confidence": 0.5241,
+        "process": "MsMpEng.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9747,
+          "entropy_delta": 3.5749,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 9.28,
+          "io_write_rate_mb_s": 0.0173,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 11.51,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9714,
+          "entropy_delta": 3.6057,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 5.98,
+          "io_write_rate_mb_s": 0.001,
+          "read_write_ratio": 50.0
+        }
+      },
+      {
+        "t": 16.49,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.977,
+          "entropy_delta": 3.5999,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 6.15,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 22.23,
+        "prediction": "benign",
+        "confidence": 0.5355,
+        "process": "MsMpEng.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 1.1964107676935765,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9799,
+          "entropy_delta": 3.7389,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 6.15,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 26.53,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.407221665001731,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9693,
+          "entropy_delta": 3.708,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 5.49,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 31.54,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.392821535387153,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9715,
+          "entropy_delta": 3.662,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 5.92,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 36.46,
+        "prediction": "benign",
+        "confidence": 0.5308,
+        "process": "MsMpEng.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.982,
+          "entropy_delta": 3.5235,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 43.31,
+        "prediction": "benign",
+        "confidence": 0.5357,
+        "process": "MsMpEng.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.7942583731837543,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9569,
+          "entropy_delta": 3.5748,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0037,
+          "process_cpu_percent": 6.13,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": null,
+    "files_encrypted_before_detection": 80,
+    "responded": false,
+    "response_ms": null,
+    "files_intact_after": 20,
+    "files_lost_after": 80,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 9,
+    "windows_flagged": 6,
+    "detected": true,
+    "confidences": [
+      0.5415,
+      0.5411,
+      0.5413,
+      0.5468,
+      0.5432,
+      0.5425
+    ],
+    "attributed_processes": [
+      "chrome.exe",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 69,
+    "restore_actions": 69,
+    "windows": [
+      {
+        "t": 2.46,
+        "prediction": "benign",
+        "confidence": 0.5319,
+        "process": "MsMpEng.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.987,
+          "entropy_delta": 3.6052,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0011,
+          "process_cpu_percent": 8.36,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 8.52,
+        "prediction": "benign",
+        "confidence": 0.5303,
+        "process": "MsMpEng.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9863,
+          "entropy_delta": 3.6596,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0013,
+          "process_cpu_percent": 5.92,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 12.64,
+        "prediction": "benign",
+        "confidence": 0.5351,
+        "process": "MsMpEng.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.407221665001731,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9697,
+          "entropy_delta": 3.6109,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 5.92,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      },
+      {
+        "t": 17.58,
+        "prediction": "ransomware_like",
+        "confidence": 0.5415,
+        "process": "chrome.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.392821535387153,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9793,
+          "entropy_delta": 3.6365,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.6719,
+          "read_write_ratio": 0.0003
+        }
+      },
+      {
+        "t": 22.5,
+        "prediction": "ransomware_like",
+        "confidence": 0.5411,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6048144433344873,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9815,
+          "entropy_delta": 3.6511,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 2.07,
+          "io_write_rate_mb_s": 2.6275,
+          "read_write_ratio": 0.0151
+        }
+      },
+      {
+        "t": 29.51,
+        "prediction": "ransomware_like",
+        "confidence": 0.5413,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 1.9940179461559608,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9648,
+          "entropy_delta": 3.6006,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 2.07,
+          "io_write_rate_mb_s": 2.6275,
+          "read_write_ratio": 0.0151
+        }
+      },
+      {
+        "t": 32.56,
+        "prediction": "ransomware_like",
+        "confidence": 0.5468,
+        "process": "claude.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 2.20661985958492,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9686,
+          "entropy_delta": 3.7401,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 0.21,
+          "io_write_rate_mb_s": 2.7107,
+          "read_write_ratio": 0.0115
+        }
+      },
+      {
+        "t": 37.53,
+        "prediction": "ransomware_like",
+        "confidence": 0.5432,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9774,
+          "entropy_delta": 3.6233,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.11,
+          "io_write_rate_mb_s": 2.4181,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 44.14,
+        "prediction": "ransomware_like",
+        "confidence": 0.5425,
+        "process": "claude.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.3958125623091726,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9609,
+          "entropy_delta": 3.6043,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0035,
+          "process_cpu_percent": 0.11,
+          "io_write_rate_mb_s": 2.4181,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 17.58,
+    "files_encrypted_before_detection": 36,
+    "responded": true,
+    "response_ms": 468.3,
+    "files_intact_after": 89,
+    "files_lost_after": 11,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 9,
+    "windows_flagged": 9,
+    "detected": true,
+    "confidences": [
+      0.5359,
+      0.541,
+      0.5415,
+      0.5405,
+      0.5475,
+      0.5475,
+      0.5401,
+      0.5361,
+      0.5425
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 2.57,
+        "prediction": "ransomware_like",
+        "confidence": 0.5359,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2006018054168109,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9909,
+          "entropy_delta": 3.6106,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0007,
+          "process_cpu_percent": 0.18,
+          "io_write_rate_mb_s": 3.4814,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 8.6,
+        "prediction": "ransomware_like",
+        "confidence": 0.541,
+        "process": "claude.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 2.1864440468763786,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9715,
+          "entropy_delta": 3.7409,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 2.4502,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 12.72,
+        "prediction": "ransomware_like",
+        "confidence": 0.5415,
+        "process": "claude.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.40770465492536,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9829,
+          "entropy_delta": 3.5837,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 2.4502,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 17.68,
+        "prediction": "ransomware_like",
+        "confidence": 0.5405,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.006018054168109,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9701,
+          "entropy_delta": 3.6331,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 2.6399,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 22.69,
+        "prediction": "ransomware_like",
+        "confidence": 0.5475,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 1.9940179461559608,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9692,
+          "entropy_delta": 3.7576,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.11,
+          "io_write_rate_mb_s": 2.4598,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 30.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.5475,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9783,
+          "entropy_delta": 3.5603,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.11,
+          "io_write_rate_mb_s": 2.4598,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 32.75,
+        "prediction": "ransomware_like",
+        "confidence": 0.5401,
+        "process": "claude.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 2.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9716,
+          "entropy_delta": 3.6823,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 2.7051,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 37.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.5361,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6048144433344873,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9743,
+          "entropy_delta": 3.6205,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.09,
+          "io_write_rate_mb_s": 2.441,
+          "read_write_ratio": 0.0104
+        }
+      },
+      {
+        "t": 43.87,
+        "prediction": "ransomware_like",
+        "confidence": 0.5425,
+        "process": "claude.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.3958125623091726,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9679,
+          "entropy_delta": 3.6735,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.09,
+          "io_write_rate_mb_s": 2.441,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 2.57,
+    "files_encrypted_before_detection": 6,
+    "responded": true,
+    "response_ms": 33.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.538,
+      0.5367,
+      0.541,
+      0.542,
+      0.534
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 7.08,
+        "prediction": "ransomware_like",
+        "confidence": 0.538,
+        "process": "claude.exe",
+        "raw_events": 14,
+        "features": {
+          "file_modification_rate": 1.3977635782824285,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9751,
+          "entropy_delta": 3.5961,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 3.1608,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 17.04,
+        "prediction": "ransomware_like",
+        "confidence": 0.5367,
+        "process": "claude.exe",
+        "raw_events": 15,
+        "features": {
+          "file_modification_rate": 1.5024038461455775,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9632,
+          "entropy_delta": 3.5482,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.13,
+          "io_write_rate_mb_s": 2.5315,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 28.27,
+        "prediction": "ransomware_like",
+        "confidence": 0.541,
+        "process": "claude.exe",
+        "raw_events": 22,
+        "features": {
+          "file_modification_rate": 2.1932010766713064,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9727,
+          "entropy_delta": 3.6861,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 2.5209,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 37.13,
+        "prediction": "ransomware_like",
+        "confidence": 0.542,
+        "process": "claude.exe",
+        "raw_events": 22,
+        "features": {
+          "file_modification_rate": 2.206841207734935,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9785,
+          "entropy_delta": 3.6703,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 2.5209,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 46.96,
+        "prediction": "ransomware_like",
+        "confidence": 0.534,
+        "process": "claude.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 0.6988817891412142,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9766,
+          "entropy_delta": 3.5969,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.523,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 7.08,
+    "files_encrypted_before_detection": 15,
+    "responded": true,
+    "response_ms": 326.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.5424,
+      0.541,
+      0.541,
+      0.5361,
+      0.534
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 9.09,
+        "prediction": "ransomware_like",
+        "confidence": 0.5424,
+        "process": "claude.exe",
+        "raw_events": 17,
+        "features": {
+          "file_modification_rate": 1.6972843450375072,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9747,
+          "entropy_delta": 3.6704,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.23,
+          "io_write_rate_mb_s": 3.1108,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 19.12,
+        "prediction": "ransomware_like",
+        "confidence": 0.541,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9672,
+          "entropy_delta": 3.6699,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.23,
+          "io_write_rate_mb_s": 2.4677,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 29.11,
+        "prediction": "ransomware_like",
+        "confidence": 0.541,
+        "process": "claude.exe",
+        "raw_events": 21,
+        "features": {
+          "file_modification_rate": 2.1033653846283342,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.98,
+          "entropy_delta": 3.6717,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 0.22,
+          "io_write_rate_mb_s": 2.5011,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 39.91,
+        "prediction": "ransomware_like",
+        "confidence": 0.5361,
+        "process": "claude.exe",
+        "raw_events": 16,
+        "features": {
+          "file_modification_rate": 1.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9736,
+          "entropy_delta": 3.5942,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.25,
+          "io_write_rate_mb_s": 2.4933,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 48.93,
+        "prediction": "ransomware_like",
+        "confidence": 0.534,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 0.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9813,
+          "entropy_delta": 3.5709,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 0.25,
+          "io_write_rate_mb_s": 2.4933,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 9.09,
+    "files_encrypted_before_detection": 19,
+    "responded": true,
+    "response_ms": 349.5,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.5372,
+      0.5397,
+      0.5396,
+      0.5352,
+      0.5267
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 8.75,
+        "prediction": "ransomware_like",
+        "confidence": 0.5372,
+        "process": "claude.exe",
+        "raw_events": 16,
+        "features": {
+          "file_modification_rate": 1.6025641025552826,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9725,
+          "entropy_delta": 3.6494,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.6,
+          "io_write_rate_mb_s": 3.0536,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 18.79,
+        "prediction": "ransomware_like",
+        "confidence": 0.5397,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9756,
+          "entropy_delta": 3.6605,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.54,
+          "io_write_rate_mb_s": 2.5616,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 28.78,
+        "prediction": "ransomware_like",
+        "confidence": 0.5396,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 1.9968051118320407,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.965,
+          "entropy_delta": 3.5825,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 0.57,
+          "io_write_rate_mb_s": 2.5095,
+          "read_write_ratio": 0.0107
+        }
+      },
+      {
+        "t": 38.96,
+        "prediction": "ransomware_like",
+        "confidence": 0.5352,
+        "process": "claude.exe",
+        "raw_events": 16,
+        "features": {
+          "file_modification_rate": 1.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9754,
+          "entropy_delta": 3.6107,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.93,
+          "io_write_rate_mb_s": 2.4975,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 48.63,
+        "prediction": "ransomware_like",
+        "confidence": 0.5267,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 0.8012820512776413,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9712,
+          "entropy_delta": 3.6726,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.93,
+          "io_write_rate_mb_s": 2.4975,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 8.75,
+    "files_encrypted_before_detection": 18,
+    "responded": true,
+    "response_ms": 347.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8462
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.58,
+        "prediction": "ransomware_like",
+        "confidence": 0.8462,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 50.0,
+          "entropy_mean": 7.9357,
+          "entropy_delta": 3.635,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 1.37,
+          "io_write_rate_mb_s": 2.5995,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 7.58,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2453.9,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8462
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 8.48,
+        "prediction": "ransomware_like",
+        "confidence": 0.8462,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.099206350571855,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 49.603174604526586,
+          "entropy_mean": 7.9378,
+          "entropy_delta": 3.6377,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 2.59,
+          "io_write_rate_mb_s": 2.8283,
+          "read_write_ratio": 0.012
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.13,
+    "ttd_s": 8.48,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1956.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8479
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 8.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.8479,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 50.0,
+          "entropy_mean": 7.9363,
+          "entropy_delta": 3.6333,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 1.09,
+          "io_write_rate_mb_s": 1.9943,
+          "read_write_ratio": 0.0139
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.14,
+    "ttd_s": 8.07,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1983.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.8738,
+      0.8995
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 173,
+    "windows": [
+      {
+        "t": 5.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.8738,
+        "process": "claude.exe",
+        "raw_events": 146,
+        "features": {
+          "file_modification_rate": 14.643931795427196,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 14.643931795427196,
+          "entropy_mean": 7.9741,
+          "entropy_delta": 3.6313,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 2.12,
+          "io_write_rate_mb_s": 3.6476,
+          "read_write_ratio": 0.0109
+        }
+      },
+      {
+        "t": 11.06,
+        "prediction": "ransomware_like",
+        "confidence": 0.8995,
+        "process": "claude.exe",
+        "raw_events": 55,
+        "features": {
+          "file_modification_rate": 5.58325024923669,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.383848454621094,
+          "entropy_mean": 7.8367,
+          "entropy_delta": 3.6463,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.39,
+          "io_write_rate_mb_s": 2.5757,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.21,
+    "ttd_s": 5.26,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1926.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8514
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 3.7,
+        "prediction": "ransomware_like",
+        "confidence": 0.8514,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 20.264847512288448,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 20.064205457711335,
+          "entropy_mean": 7.9377,
+          "entropy_delta": 3.6376,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 1.68,
+          "io_write_rate_mb_s": 3.8762,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 3.7,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2253.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.8615,
+      0.9466
+    ],
+    "attributed_processes": [
+      "claude.exe",
+      "msedgewebview2.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 191,
+    "windows": [
+      {
+        "t": 3.64,
+        "prediction": "ransomware_like",
+        "confidence": 0.8615,
+        "process": "claude.exe",
+        "raw_events": 171,
+        "features": {
+          "file_modification_rate": 16.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 18.2,
+          "entropy_mean": 7.9791,
+          "entropy_delta": 3.5481,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.29,
+          "io_write_rate_mb_s": 3.6822,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 9.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.9466,
+        "process": "msedgewebview2.exe",
+        "raw_events": 30,
+        "features": {
+          "file_modification_rate": 4.213483146119381,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 1.8057784911940202,
+          "entropy_mean": 7.7702,
+          "entropy_delta": 3.9846,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0036,
+          "process_cpu_percent": 2.64,
+          "io_write_rate_mb_s": 5.7869,
+          "read_write_ratio": 1.4241
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 3.64,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2179.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8913
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 11.95,
+        "prediction": "ransomware_like",
+        "confidence": 0.8913,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.11517275915286,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.015022533814713,
+          "entropy_mean": 7.9355,
+          "entropy_delta": 3.6348,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.12,
+          "io_write_rate_mb_s": 2.4748,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.13,
+    "ttd_s": 11.95,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2266.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8917
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 4.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.8917,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 7.9376,
+          "entropy_delta": 3.6375,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.18,
+          "io_write_rate_mb_s": 3.0112,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.14,
+    "ttd_s": 4.07,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2023.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8917
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 10.49,
+        "prediction": "ransomware_like",
+        "confidence": 0.8917,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 7.9358,
+          "entropy_delta": 3.6327,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 3.0489,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.14,
+    "ttd_s": 10.49,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2090.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 8,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.9,
+        "prediction": "benign",
+        "confidence": 0.9404,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5078720162413348,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3665,
+          "entropy_delta": 0.0007,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0052,
+          "process_cpu_percent": 0.29,
+          "io_write_rate_mb_s": 5.462,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 5.78,
+        "prediction": "benign",
+        "confidence": 0.9435,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3661,
+          "entropy_delta": 0.0011,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0087,
+          "process_cpu_percent": 0.29,
+          "io_write_rate_mb_s": 5.462,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 5.91,
+        "prediction": "benign",
+        "confidence": 0.9632,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3673,
+          "entropy_delta": 0.0013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.4797,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 9.74,
+        "prediction": "benign",
+        "confidence": 0.9634,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3695,
+          "entropy_delta": 0.001,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0047,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.4797,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 9.9,
+        "prediction": "benign",
+        "confidence": 0.9702,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5120967742403955,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3697,
+          "entropy_delta": 0.0013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0048,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.2726,
+          "read_write_ratio": 0.0114
+        }
+      },
+      {
+        "t": 13.79,
+        "prediction": "benign",
+        "confidence": 0.9711,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.4801587300831107,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3713,
+          "entropy_delta": 0.0011,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.2726,
+          "read_write_ratio": 0.0114
+        }
+      },
+      {
+        "t": 13.89,
+        "prediction": "benign",
+        "confidence": 0.9661,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5120967742403955,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3674,
+          "entropy_delta": 0.0018,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0034,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.7084,
+          "read_write_ratio": 0.0103
+        }
+      },
+      {
+        "t": 17.72,
+        "prediction": "benign",
+        "confidence": 0.967,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269840664886,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3718,
+          "entropy_delta": 0.0017,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0039,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 2.7084,
+          "read_write_ratio": 0.0103
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 7,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.24,
+        "prediction": "benign",
+        "confidence": 0.9745,
+        "process": null,
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3749,
+          "entropy_delta": 0.0005,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0043,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 3.36,
+        "prediction": "benign",
+        "confidence": 0.9474,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4436958614194322,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3623,
+          "entropy_delta": 0.0009,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0056,
+          "process_cpu_percent": 0.54,
+          "io_write_rate_mb_s": 5.292,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 7.31,
+        "prediction": "benign",
+        "confidence": 0.9462,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5608740894734752,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3677,
+          "entropy_delta": 0.0014,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0098,
+          "process_cpu_percent": 0.54,
+          "io_write_rate_mb_s": 5.292,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 7.41,
+        "prediction": "benign",
+        "confidence": 0.9645,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.8682858477826523,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3652,
+          "entropy_delta": 0.0021,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0072,
+          "process_cpu_percent": 0.3,
+          "io_write_rate_mb_s": 2.6666,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 10.9,
+        "prediction": "benign",
+        "confidence": 0.9639,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.1516944593231675,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3619,
+          "entropy_delta": 0.0019,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.004,
+          "process_cpu_percent": 0.3,
+          "io_write_rate_mb_s": 2.6666,
+          "read_write_ratio": 0.0102
+        }
+      },
+      {
+        "t": 13.4,
+        "prediction": "benign",
+        "confidence": 0.9725,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 3.472222222316861,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.368,
+          "entropy_delta": 0.0024,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0072,
+          "process_cpu_percent": 0.31,
+          "io_write_rate_mb_s": 2.2127,
+          "read_write_ratio": 0.0119
+        }
+      },
+      {
+        "t": 17.27,
+        "prediction": "benign",
+        "confidence": 0.9643,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.0080645161011133,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3763,
+          "entropy_delta": 0.0013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0043,
+          "process_cpu_percent": 0.16,
+          "io_write_rate_mb_s": 2.6345,
+          "read_write_ratio": 0.0102
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 4,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.77,
+        "prediction": "benign",
+        "confidence": 0.9674,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.19936204146948855,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3752,
+          "entropy_delta": 0.0009,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0076,
+          "process_cpu_percent": 0.35,
+          "io_write_rate_mb_s": 3.3543,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 8.85,
+        "prediction": "benign",
+        "confidence": 0.963,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 1.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3705,
+          "entropy_delta": 0.001,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0088,
+          "process_cpu_percent": 0.35,
+          "io_write_rate_mb_s": 3.3543,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 12.87,
+        "prediction": "benign",
+        "confidence": 0.9622,
+        "process": "claude.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 1.6051364365794143,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.367,
+          "entropy_delta": 0.0014,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.006,
+          "process_cpu_percent": 0.15,
+          "io_write_rate_mb_s": 2.5319,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 17.84,
+        "prediction": "benign",
+        "confidence": 0.9675,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 0.9968102073474427,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3694,
+          "entropy_delta": 0.0016,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0032,
+          "process_cpu_percent": 0.2,
+          "io_write_rate_mb_s": 2.6893,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 3,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.5,
+        "prediction": "benign",
+        "confidence": 0.961,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.590141125037798,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3676,
+          "entropy_delta": 0.001,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0075,
+          "process_cpu_percent": 0.28,
+          "io_write_rate_mb_s": 2.3452,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 11.5,
+        "prediction": "benign",
+        "confidence": 0.9623,
+        "process": "claude.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 1.4042126379176763,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3684,
+          "entropy_delta": 0.0019,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0071,
+          "process_cpu_percent": 0.28,
+          "io_write_rate_mb_s": 2.3452,
+          "read_write_ratio": 0.0111
+        }
+      },
+      {
+        "t": 16.5,
+        "prediction": "benign",
+        "confidence": 0.9641,
+        "process": "claude.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3688,
+          "entropy_delta": 0.0021,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0062,
+          "process_cpu_percent": 0.33,
+          "io_write_rate_mb_s": 2.6643,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.92,
+        "prediction": "benign",
+        "confidence": 0.9706,
+        "process": "claude.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3635,
+          "entropy_delta": 0.0008,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0055,
+          "process_cpu_percent": 0.56,
+          "io_write_rate_mb_s": 3.0301,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 12.09,
+        "prediction": "benign",
+        "confidence": 0.9637,
+        "process": "claude.exe",
+        "raw_events": 18,
+        "features": {
+          "file_modification_rate": 0.9013520280433241,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3716,
+          "entropy_delta": 0.0013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0099,
+          "process_cpu_percent": 0.48,
+          "io_write_rate_mb_s": 2.5381,
+          "read_write_ratio": 0.0106
+        }
+      },
+      {
+        "t": 21.95,
+        "prediction": "benign",
+        "confidence": 0.9611,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 0.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3712,
+          "entropy_delta": 0.0016,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0039,
+          "process_cpu_percent": 0.64,
+          "io_write_rate_mb_s": 2.4931,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ]
+  },
+  {
+    "workload": "edit_docs",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 9.65,
+        "prediction": "benign",
+        "confidence": 0.9688,
+        "process": "claude.exe",
+        "raw_events": 16,
+        "features": {
+          "file_modification_rate": 0.5991013479771973,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3715,
+          "entropy_delta": 0.0014,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0129,
+          "process_cpu_percent": 1.11,
+          "io_write_rate_mb_s": 2.9945,
+          "read_write_ratio": 0.0108
+        }
+      },
+      {
+        "t": 19.67,
+        "prediction": "benign",
+        "confidence": 0.9676,
+        "process": "claude.exe",
+        "raw_events": 13,
+        "features": {
+          "file_modification_rate": 0.7,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3742,
+          "entropy_delta": 0.0015,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0069,
+          "process_cpu_percent": 1.14,
+          "io_write_rate_mb_s": 2.519,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.76,
+        "prediction": "benign",
+        "confidence": 0.7848,
+        "process": null,
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 49.21259842503896,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.12,
+        "prediction": "benign",
+        "confidence": 0.7681,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 50.37783375350316,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 3.44,
+          "io_write_rate_mb_s": 4.8765,
+          "read_write_ratio": 0.0115
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.22,
+        "prediction": "benign",
+        "confidence": 0.932,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 4.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.97,
+          "io_write_rate_mb_s": 3.7281,
+          "read_write_ratio": 0.0104
+        }
+      },
+      {
+        "t": 7.59,
+        "prediction": "benign",
+        "confidence": 0.8317,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 3.987240829389771,
+          "file_rename_rate": 15.948963317559084,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3688,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.38,
+          "io_write_rate_mb_s": 2.2897,
+          "read_write_ratio": 0.0113
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.0,
+        "prediction": "benign",
+        "confidence": 0.7992,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 20.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.68,
+          "io_write_rate_mb_s": 3.2269,
+          "read_write_ratio": 0.0113
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.72,
+        "prediction": "benign",
+        "confidence": 0.8657,
+        "process": "claude.exe",
+        "raw_events": 115,
+        "features": {
+          "file_modification_rate": 1.5024038461455775,
+          "file_rename_rate": 8.513621794824939,
+          "file_deletion_rate": 1.5024038461455775,
+          "entropy_mean": 4.37,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.2,
+          "io_write_rate_mb_s": 3.016,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "bulk_rename",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.21,
+        "prediction": "benign",
+        "confidence": 0.8319,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 10.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.06,
+          "io_write_rate_mb_s": 3.0252,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.38,
+        "prediction": "benign",
+        "confidence": 0.9478,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9732,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 4.8173,
+          "read_write_ratio": 0.0109
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.39,
+        "prediction": "benign",
+        "confidence": 0.9751,
+        "process": null,
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.49603174601662214,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9489,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 0.98,
+        "prediction": "benign",
+        "confidence": 0.9674,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9732,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 3.4473,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.71,
+        "prediction": "benign",
+        "confidence": 0.9674,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9489,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 3.6556,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 8.0,
+        "prediction": "benign",
+        "confidence": 0.9711,
+        "process": "claude.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9732,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.09,
+          "io_write_rate_mb_s": 2.9968,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "zip_archive",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.47,
+        "prediction": "benign",
+        "confidence": 0.9711,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.10015022533814713,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 3.9489,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 3.0205,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.6,
+        "prediction": "benign",
+        "confidence": 0.9562,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 50.40322580505567,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3379,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.24,
+          "io_write_rate_mb_s": 4.6632,
+          "read_write_ratio": 0.0111
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.57,
+        "prediction": "benign",
+        "confidence": 0.9571,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 49.60317460166222,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3374,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.68,
+          "io_write_rate_mb_s": 5.5506,
+          "read_write_ratio": 0.0102
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.66,
+        "prediction": "benign",
+        "confidence": 0.9574,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 20.064205457711335,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3379,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.29,
+          "io_write_rate_mb_s": 3.3024,
+          "read_write_ratio": 0.0111
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.19,
+        "prediction": "benign",
+        "confidence": 0.9564,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 20.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3374,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.37,
+          "io_write_rate_mb_s": 3.6854,
+          "read_write_ratio": 0.0104
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.88,
+        "prediction": "benign",
+        "confidence": 0.9695,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 10.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3379,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.86,
+          "io_write_rate_mb_s": 3.0043,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ]
+  },
+  {
+    "workload": "copy_folder",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.92,
+        "prediction": "benign",
+        "confidence": 0.9703,
+        "process": "claude.exe",
+        "raw_events": 100,
+        "features": {
+          "file_modification_rate": 10.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 4.3374,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.75,
+          "io_write_rate_mb_s": 3.0729,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.84,
+        "prediction": "benign",
+        "confidence": 0.9237,
+        "process": "claude.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 30.226700252101896,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 30.226700252101896,
+          "entropy_mean": 4.3712,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.32,
+          "io_write_rate_mb_s": 2.2824,
+          "read_write_ratio": 0.0117
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.6,
+        "prediction": "benign",
+        "confidence": 0.9317,
+        "process": "claude.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 30.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 30.0,
+          "entropy_mean": 4.3718,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.81,
+          "io_write_rate_mb_s": 5.346,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 1.9,
+        "prediction": "benign",
+        "confidence": 0.9477,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.987240829389771,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.987240829389771,
+          "entropy_mean": 4.371,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.01,
+          "io_write_rate_mb_s": 3.7001,
+          "read_write_ratio": 0.0105
+        }
+      },
+      {
+        "t": 8.45,
+        "prediction": "benign",
+        "confidence": 0.925,
+        "process": "claude.exe",
+        "raw_events": 80,
+        "features": {
+          "file_modification_rate": 8.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 8.0,
+          "entropy_mean": 4.3712,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.36,
+          "io_write_rate_mb_s": 2.3528,
+          "read_write_ratio": 0.0111
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.1,
+        "prediction": "benign",
+        "confidence": 0.9262,
+        "process": "claude.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 11.961722488169313,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 11.961722488169313,
+          "entropy_mean": 4.3718,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.02,
+          "io_write_rate_mb_s": 3.0993,
+          "read_write_ratio": 0.0116
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.31,
+        "prediction": "benign",
+        "confidence": 0.9279,
+        "process": "claude.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 5.991013479771973,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.991013479771973,
+          "entropy_mean": 4.3712,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.04,
+          "io_write_rate_mb_s": 2.985,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ]
+  },
+  {
+    "workload": "format_conversion",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.11,
+        "prediction": "benign",
+        "confidence": 0.9286,
+        "process": "claude.exe",
+        "raw_events": 120,
+        "features": {
+          "file_modification_rate": 5.990415335496122,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.990415335496122,
+          "entropy_mean": 4.3718,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 3.056,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.7,
+        "prediction": "benign",
+        "confidence": 0.8823,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 29.77667493775882,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9966,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.05,
+          "io_write_rate_mb_s": 5.16,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 4.7,
+        "prediction": "benign",
+        "confidence": 0.8767,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 29.76190476271595,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9961,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.05,
+          "io_write_rate_mb_s": 4.2621,
+          "read_write_ratio": 0.0118
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 5.09,
+        "prediction": "benign",
+        "confidence": 0.8579,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 11.961722488169313,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9964,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 3.705,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 7.48,
+        "prediction": "benign",
+        "confidence": 0.8483,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 12.036108325008655,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9965,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 2.4797,
+          "read_write_ratio": 0.0108
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 10.99,
+        "prediction": "benign",
+        "confidence": 0.8199,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 6.00961538458231,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9964,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.07,
+          "io_write_rate_mb_s": 3.0774,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ]
+  },
+  {
+    "workload": "software_install",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.8,
+        "prediction": "benign",
+        "confidence": 0.8199,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 6.00961538458231,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9963,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.19,
+          "io_write_rate_mb_s": 3.0066,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.26,
+        "prediction": "benign",
+        "confidence": 0.8845,
+        "process": null,
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4771048743912218,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9975,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 4.19,
+        "prediction": "benign",
+        "confidence": 0.8477,
+        "process": "claude.exe",
+        "raw_events": 37,
+        "features": {
+          "file_modification_rate": 17.66953199681611,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.78,
+          "io_write_rate_mb_s": 4.9228,
+          "read_write_ratio": 0.0109
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 3.78,
+        "prediction": "benign",
+        "confidence": 0.8614,
+        "process": null,
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 5.905511811004676,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 4.39,
+        "prediction": "benign",
+        "confidence": 0.8496,
+        "process": "claude.exe",
+        "raw_events": 28,
+        "features": {
+          "file_modification_rate": 13.474494706581368,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.93,
+          "io_write_rate_mb_s": 5.5624,
+          "read_write_ratio": 0.0102
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 0.75,
+        "prediction": "benign",
+        "confidence": 0.8324,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.8,
+          "io_write_rate_mb_s": 3.2174,
+          "read_write_ratio": 0.0113
+        }
+      },
+      {
+        "t": 6.96,
+        "prediction": "benign",
+        "confidence": 0.8178,
+        "process": "claude.exe",
+        "raw_events": 31,
+        "features": {
+          "file_modification_rate": 6.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9973,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.49,
+          "io_write_rate_mb_s": 2.6034,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 2.44,
+        "prediction": "benign",
+        "confidence": 0.813,
+        "process": "claude.exe",
+        "raw_events": 33,
+        "features": {
+          "file_modification_rate": 6.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.56,
+          "io_write_rate_mb_s": 3.7706,
+          "read_write_ratio": 0.0103
+        }
+      },
+      {
+        "t": 7.71,
+        "prediction": "benign",
+        "confidence": 0.8481,
+        "process": "claude.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.997,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 0.97,
+          "io_write_rate_mb_s": 2.2996,
+          "read_write_ratio": 0.0112
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 10.85,
+        "prediction": "benign",
+        "confidence": 0.8227,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 4.006009013525885,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9972,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.16,
+          "io_write_rate_mb_s": 2.478,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "media_import",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 0,
+    "detected": false,
+    "confidences": [],
+    "attributed_processes": [],
+    "attribution_correct": null,
+    "quarantine_actions": 0,
+    "restore_actions": 0,
+    "windows": [
+      {
+        "t": 6.4,
+        "prediction": "benign",
+        "confidence": 0.8129,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.9936102236640814,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9973,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 1.48,
+          "io_write_rate_mb_s": 3.0348,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.5784
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 3.0,
+        "prediction": "ransomware_like",
+        "confidence": 0.5784,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 10.075566750700633,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.075566750700633,
+          "entropy_mean": 4.6102,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3675,
+          "process_cpu_percent": 2.37,
+          "io_write_rate_mb_s": 5.4624,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.5734
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 2.11,
+        "prediction": "ransomware_like",
+        "confidence": 0.5734,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 10.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 4.6116,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3556,
+          "process_cpu_percent": 0.98,
+          "io_write_rate_mb_s": 4.8411,
+          "read_write_ratio": 0.0109
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.6079
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 1.84,
+        "prediction": "ransomware_like",
+        "confidence": 0.6079,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 4.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 4.0,
+          "entropy_mean": 4.6102,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3675,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 3.6285,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.6079
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 1.47,
+        "prediction": "ransomware_like",
+        "confidence": 0.6079,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 3.987240829389771,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.987240829389771,
+          "entropy_mean": 4.6116,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3556,
+          "process_cpu_percent": 0.04,
+          "io_write_rate_mb_s": 3.5841,
+          "read_write_ratio": 0.0105
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.6209
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 2.24,
+        "prediction": "ransomware_like",
+        "confidence": 0.6209,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 1.9970044932573243,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 1.9970044932573243,
+          "entropy_mean": 4.6102,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3675,
+          "process_cpu_percent": 0.08,
+          "io_write_rate_mb_s": 3.0393,
+          "read_write_ratio": 0.0106
+        }
+      }
+    ]
+  },
+  {
+    "workload": "gzip_compress",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.6193
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 20,
+    "restore_actions": 20,
+    "windows": [
+      {
+        "t": 4.5,
+        "prediction": "ransomware_like",
+        "confidence": 0.6193,
+        "process": "claude.exe",
+        "raw_events": 40,
+        "features": {
+          "file_modification_rate": 2.003205128217461,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 2.003205128217461,
+          "entropy_mean": 4.6116,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 0.3556,
+          "process_cpu_percent": 0.1,
+          "io_write_rate_mb_s": 2.9872,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8712
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 6.29,
+        "prediction": "ransomware_like",
+        "confidence": 0.8712,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 15.243902439074887,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 15.243902439074887,
+          "entropy_mean": 7.9841,
+          "entropy_delta": 3.6155,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0056,
+          "process_cpu_percent": 0.21,
+          "io_write_rate_mb_s": 2.3959,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8709
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 7.04,
+        "prediction": "ransomware_like",
+        "confidence": 0.8709,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 15.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 15.0,
+          "entropy_mean": 7.984,
+          "entropy_delta": 3.6153,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0055,
+          "process_cpu_percent": 0.34,
+          "io_write_rate_mb_s": 5.8832,
+          "read_write_ratio": 0.0102
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8986
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 4.72,
+        "prediction": "ransomware_like",
+        "confidence": 0.8986,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 5.982053838467882,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 5.982053838467882,
+          "entropy_mean": 7.9839,
+          "entropy_delta": 3.6153,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0056,
+          "process_cpu_percent": 0.33,
+          "io_write_rate_mb_s": 3.6871,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8969
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 4.16,
+        "prediction": "ransomware_like",
+        "confidence": 0.8969,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 6.0192616373134005,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 6.0192616373134005,
+          "entropy_mean": 7.984,
+          "entropy_delta": 3.6152,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0055,
+          "process_cpu_percent": 0.23,
+          "io_write_rate_mb_s": 3.4572,
+          "read_write_ratio": 0.0109
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9022
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 3.82,
+        "prediction": "ransomware_like",
+        "confidence": 0.9022,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 3.0,
+          "entropy_mean": 7.9842,
+          "entropy_delta": 3.6156,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0056,
+          "process_cpu_percent": 0.4,
+          "io_write_rate_mb_s": 3.0325,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  },
+  {
+    "workload": "legit_encrypt",
+    "kind": "benign",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9022
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 30,
+    "restore_actions": 30,
+    "windows": [
+      {
+        "t": 6.61,
+        "prediction": "ransomware_like",
+        "confidence": 0.9022,
+        "process": "claude.exe",
+        "raw_events": 60,
+        "features": {
+          "file_modification_rate": 2.995207667748061,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 2.995207667748061,
+          "entropy_mean": 7.9846,
+          "entropy_delta": 3.6158,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0055,
+          "process_cpu_percent": 0.66,
+          "io_write_rate_mb_s": 3.0442,
+          "read_write_ratio": 0.0107
+        }
+      }
+    ]
+  }
+]

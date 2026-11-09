@@ -1,0 +1,24 @@
+EarlyShield — Random Forest Detection Model
+============================================================
+Training samples: 9600 | Test samples: 2400
+
+Accuracy:  0.9679
+Precision: 0.9675
+Recall:    0.9683
+F1 Score:  0.9679
+ROC-AUC:   0.9800
+5-fold CV F1: mean=0.9711, std=0.0029
+
+Confusion Matrix:
+                 Predicted Benign   Predicted Ransomware
+Actual Benign           1161                  39
+Actual Ransomware         38                1162
+
+                 precision    recall  f1-score   support
+
+         Benign       0.97      0.97      0.97      1200
+Ransomware-like       0.97      0.97      0.97      1200
+
+       accuracy                           0.97      2400
+      macro avg       0.97      0.97      0.97      2400
+   weighted avg       0.97      0.97      0.97      2400

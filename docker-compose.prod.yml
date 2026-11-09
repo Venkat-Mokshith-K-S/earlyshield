@@ -1,0 +1,54 @@
+# Production overrides, layered on top of docker-compose.yml:
+#
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Needs a .env file next to this one (see .env.production.example) and TLS
+# certificates in ./certs (see DEPLOYMENT.md). What changes vs. development:
+#   - code is baked into the backend image (no live source mount)
+#   - Postgres and the backend are no longer published to the host;
+#     only nginx is reachable, on 80 (redirect) and 443 (HTTPS)
+#   - database password, public origin and watched folder come from .env
+#   - the recovery vault lives in its own Docker volume, outside the
+#     watched folder and out of reach of anything writing to it
+#   - API docs are switched off (ENVIRONMENT=production)
+
+services:
+  postgres:
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports: !reset []
+    restart: always
+
+  backend:
+    environment:
+      ENVIRONMENT: production
+      DEBUG: "false"
+      DATABASE_URL: postgresql+psycopg://earlyshield:${POSTGRES_PASSWORD}@postgres:5432/earlyshield_db
+      BACKEND_CORS_ORIGINS: ${PUBLIC_ORIGIN:?Set PUBLIC_ORIGIN in .env, e.g. https://earlyshield.example.org}
+      PUBLIC_URL: ${PUBLIC_ORIGIN}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID:-}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET:-}
+      RECOVERY_VAULT_PATH: /vault
+    ports: !reset []
+    # !override (not !reset): replace the dev mounts with these. !reset would
+    # drop the list given here too, leaving the backend with no folder to watch.
+    volumes: !override
+      - ${WATCH_DIR:-./watched_folder}:/watched
+      - vault_data:/vault
+    restart: always
+
+  frontend:
+    ports: !override
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./frontend/nginx.prod.conf:/etc/nginx/conf.d/default.conf:ro
+      - ${TLS_CERT_DIR:-./certs}:/etc/nginx/certs:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://127.0.0.1/healthz || exit 1"]
+    restart: always
+
+volumes:
+  vault_data:

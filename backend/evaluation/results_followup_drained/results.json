@@ -1,0 +1,4028 @@
+[
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.937,
+      0.951
+    ],
+    "attributed_processes": [
+      "?",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 122,
+    "windows": [
+      {
+        "t": 2.51,
+        "prediction": "ransomware_like",
+        "confidence": 0.937,
+        "process": null,
+        "raw_events": 42,
+        "features": {
+          "file_modification_rate": 9.925558312586274,
+          "file_rename_rate": 9.925558312586274,
+          "file_deletion_rate": 0.9925558312586273,
+          "entropy_mean": 7.9777,
+          "entropy_delta": 3.6057,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 6.84,
+        "prediction": "ransomware_like",
+        "confidence": 0.951,
+        "process": "claude.exe",
+        "raw_events": 159,
+        "features": {
+          "file_modification_rate": 40.80604534033756,
+          "file_rename_rate": 39.29471032773247,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9199,
+          "entropy_delta": 3.6408,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 4.26,
+          "io_write_rate_mb_s": 12.3995,
+          "read_write_ratio": 0.0058
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.21,
+    "ttd_s": 2.51,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 445.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9335
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.51,
+        "prediction": "ransomware_like",
+        "confidence": 0.9335,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 51.2950736434076,
+          "file_rename_rate": 50.787201627136234,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9408,
+          "entropy_delta": 3.6362,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 3.1,
+          "io_write_rate_mb_s": 5.6089,
+          "read_write_ratio": 0.0078
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 7.51,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4222.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9367
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.73,
+        "prediction": "ransomware_like",
+        "confidence": 0.9367,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.09920634767884,
+          "file_rename_rate": 49.60317460166222,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9351,
+          "entropy_delta": 3.6332,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.96,
+          "io_write_rate_mb_s": 5.4734,
+          "read_write_ratio": 0.0064
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 7.72,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 3902.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9406
+    ],
+    "attributed_processes": [
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.83,
+        "prediction": "ransomware_like",
+        "confidence": 0.9406,
+        "process": "System",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 20.13556618795102,
+          "file_rename_rate": 19.93620414648616,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9313,
+          "entropy_delta": 3.6281,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 1.74,
+          "io_write_rate_mb_s": 0.0362,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 7.83,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1727.5,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9406
+    ],
+    "attributed_processes": [
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 0.91,
+        "prediction": "benign",
+        "confidence": 0.9641,
+        "process": "python.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.19936204146948855,
+          "entropy_mean": 0.0,
+          "entropy_delta": 0.0,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0,
+          "process_cpu_percent": 2.78,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 8.21,
+        "prediction": "ransomware_like",
+        "confidence": 0.9406,
+        "process": "System",
+        "raw_events": 200,
+        "features": {
+          "file_modification_rate": 20.139581256175205,
+          "file_rename_rate": 19.740777666944012,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9407,
+          "entropy_delta": 3.6363,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 1.14,
+          "io_write_rate_mb_s": 0.2799,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 8.21,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1922.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9406
+    ],
+    "attributed_processes": [
+      "svchost.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 4.31,
+        "prediction": "ransomware_like",
+        "confidence": 0.9406,
+        "process": "svchost.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 20.07553170313766,
+          "file_rename_rate": 19.87676406251253,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9355,
+          "entropy_delta": 3.6336,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.86,
+          "io_write_rate_mb_s": 0.0124,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 4.31,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1838.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9194
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 11.49,
+        "prediction": "ransomware_like",
+        "confidence": 0.9194,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.084872690949487,
+          "file_rename_rate": 9.98502246628662,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9318,
+          "entropy_delta": 3.6285,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 2.52,
+          "io_write_rate_mb_s": 2.7066,
+          "read_write_ratio": 0.0139
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.19,
+    "ttd_s": 11.49,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1886.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9161
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 1.93,
+        "prediction": "ransomware_like",
+        "confidence": 0.9161,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.11517275915286,
+          "file_rename_rate": 10.015022533814713,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9408,
+          "entropy_delta": 3.6362,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.45,
+          "io_write_rate_mb_s": 4.1073,
+          "read_write_ratio": 0.0083
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 1.92,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2186.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "burst",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9161
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 6.38,
+        "prediction": "ransomware_like",
+        "confidence": 0.9161,
+        "process": "claude.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.083865814751807,
+          "file_rename_rate": 9.984025559160203,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9348,
+          "entropy_delta": 3.6329,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.58,
+          "io_write_rate_mb_s": 4.1574,
+          "read_write_ratio": 0.008
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 6.38,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2024.5,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 4,
+    "windows_flagged": 4,
+    "detected": true,
+    "confidences": [
+      0.9299,
+      0.9249,
+      0.9155,
+      0.925
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 198,
+    "windows": [
+      {
+        "t": 7.19,
+        "prediction": "ransomware_like",
+        "confidence": 0.9299,
+        "process": "claude.exe",
+        "raw_events": 80,
+        "features": {
+          "file_modification_rate": 19.841269840664886,
+          "file_rename_rate": 17.857142856598397,
+          "file_deletion_rate": 1.9841269840664886,
+          "entropy_mean": 7.9699,
+          "entropy_delta": 3.63,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.18,
+          "io_write_rate_mb_s": 3.4384,
+          "read_write_ratio": 0.0079
+        }
+      },
+      {
+        "t": 8.39,
+        "prediction": "ransomware_like",
+        "confidence": 0.9249,
+        "process": "claude.exe",
+        "raw_events": 50,
+        "features": {
+          "file_modification_rate": 7.372456502626099,
+          "file_rename_rate": 7.372456502626099,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9653,
+          "entropy_delta": 3.5462,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.003,
+          "process_cpu_percent": 1.18,
+          "io_write_rate_mb_s": 3.4384,
+          "read_write_ratio": 0.0079
+        }
+      },
+      {
+        "t": 12.09,
+        "prediction": "ransomware_like",
+        "confidence": 0.9155,
+        "process": "claude.exe",
+        "raw_events": 66,
+        "features": {
+          "file_modification_rate": 9.223029625541916,
+          "file_rename_rate": 9.223029625541916,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9688,
+          "entropy_delta": 3.6653,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.56,
+          "io_write_rate_mb_s": 3.7492,
+          "read_write_ratio": 0.0076
+        }
+      },
+      {
+        "t": 15.58,
+        "prediction": "ransomware_like",
+        "confidence": 0.925,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 1.4888337468879411,
+          "file_rename_rate": 0.9925558312586273,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 6.7199,
+          "entropy_delta": 3.9949,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 1.56,
+          "io_write_rate_mb_s": 3.7492,
+          "read_write_ratio": 0.0076
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 7.19,
+    "files_encrypted_before_detection": 72,
+    "responded": true,
+    "response_ms": 831.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 6,
+    "windows_flagged": 6,
+    "detected": true,
+    "confidences": [
+      0.9434,
+      0.9134,
+      0.9143,
+      0.9384,
+      0.9399,
+      0.9356
+    ],
+    "attributed_processes": [
+      "?",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 191,
+    "windows": [
+      {
+        "t": 1.64,
+        "prediction": "ransomware_like",
+        "confidence": 0.9434,
+        "process": null,
+        "raw_events": 16,
+        "features": {
+          "file_modification_rate": 4.096262160577092,
+          "file_rename_rate": 4.096262160577092,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9651,
+          "entropy_delta": 3.6301,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.003,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 4.28,
+        "prediction": "ransomware_like",
+        "confidence": 0.9134,
+        "process": "claude.exe",
+        "raw_events": 47,
+        "features": {
+          "file_modification_rate": 9.376273950343299,
+          "file_rename_rate": 9.376273950343299,
+          "file_deletion_rate": 0.40766408479753474,
+          "entropy_mean": 7.9734,
+          "entropy_delta": 3.5783,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 2.91,
+          "io_write_rate_mb_s": 7.4877,
+          "read_write_ratio": 0.0077
+        }
+      },
+      {
+        "t": 5.78,
+        "prediction": "ransomware_like",
+        "confidence": 0.9143,
+        "process": "claude.exe",
+        "raw_events": 37,
+        "features": {
+          "file_modification_rate": 12.156110045053671,
+          "file_rename_rate": 11.51631477952453,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9798,
+          "entropy_delta": 3.6774,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 2.91,
+          "io_write_rate_mb_s": 7.4877,
+          "read_write_ratio": 0.0077
+        }
+      },
+      {
+        "t": 9.02,
+        "prediction": "ransomware_like",
+        "confidence": 0.9384,
+        "process": "claude.exe",
+        "raw_events": 41,
+        "features": {
+          "file_modification_rate": 6.275494195100016,
+          "file_rename_rate": 6.275494195100016,
+          "file_deletion_rate": 0.3137747097550008,
+          "entropy_mean": 7.9833,
+          "entropy_delta": 3.5822,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 1.17,
+          "io_write_rate_mb_s": 2.9916,
+          "read_write_ratio": 0.0085
+        }
+      },
+      {
+        "t": 12.14,
+        "prediction": "ransomware_like",
+        "confidence": 0.9399,
+        "process": "claude.exe",
+        "raw_events": 41,
+        "features": {
+          "file_modification_rate": 18.93597835993142,
+          "file_rename_rate": 18.03426510469659,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9819,
+          "entropy_delta": 3.7216,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 1.17,
+          "io_write_rate_mb_s": 2.9916,
+          "read_write_ratio": 0.0085
+        }
+      },
+      {
+        "t": 13.23,
+        "prediction": "ransomware_like",
+        "confidence": 0.9356,
+        "process": "claude.exe",
+        "raw_events": 19,
+        "features": {
+          "file_modification_rate": 3.06184935695401,
+          "file_rename_rate": 2.7556644212586088,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.5997,
+          "entropy_delta": 3.6392,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 1.41,
+          "io_write_rate_mb_s": 3.7678,
+          "read_write_ratio": 0.0076
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 1.64,
+    "files_encrypted_before_detection": 17,
+    "responded": true,
+    "response_ms": 2290.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 4,
+    "windows_flagged": 4,
+    "detected": true,
+    "confidences": [
+      0.9392,
+      0.9309,
+      0.9145,
+      0.9271
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 197,
+    "windows": [
+      {
+        "t": 5.33,
+        "prediction": "ransomware_like",
+        "confidence": 0.9392,
+        "process": "claude.exe",
+        "raw_events": 68,
+        "features": {
+          "file_modification_rate": 17.0,
+          "file_rename_rate": 17.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9712,
+          "entropy_delta": 3.6034,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 2.86,
+          "io_write_rate_mb_s": 7.9287,
+          "read_write_ratio": 0.0075
+        }
+      },
+      {
+        "t": 7.8,
+        "prediction": "ransomware_like",
+        "confidence": 0.9309,
+        "process": "claude.exe",
+        "raw_events": 48,
+        "features": {
+          "file_modification_rate": 6.541524459715427,
+          "file_rename_rate": 6.541524459715427,
+          "file_deletion_rate": 0.5688282138882981,
+          "entropy_mean": 7.9761,
+          "entropy_delta": 3.5814,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 1.25,
+          "io_write_rate_mb_s": 2.975,
+          "read_write_ratio": 0.0087
+        }
+      },
+      {
+        "t": 11.9,
+        "prediction": "ransomware_like",
+        "confidence": 0.9145,
+        "process": "claude.exe",
+        "raw_events": 77,
+        "features": {
+          "file_modification_rate": 10.064516129032258,
+          "file_rename_rate": 9.548387096774194,
+          "file_deletion_rate": 0.25806451612903225,
+          "entropy_mean": 7.9697,
+          "entropy_delta": 3.6638,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.42,
+          "io_write_rate_mb_s": 3.7669,
+          "read_write_ratio": 0.0076
+        }
+      },
+      {
+        "t": 15.78,
+        "prediction": "ransomware_like",
+        "confidence": 0.9271,
+        "process": "claude.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.1512779184912516,
+          "file_rename_rate": 0.6907667510947509,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.2236,
+          "entropy_delta": 3.9977,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 1.49,
+          "io_write_rate_mb_s": 3.0203,
+          "read_write_ratio": 0.0085
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 5.32,
+    "files_encrypted_before_detection": 54,
+    "responded": true,
+    "response_ms": 2092.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9446,
+      0.9185,
+      0.9179
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 163,
+    "windows": [
+      {
+        "t": 2.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.9446,
+        "process": "claude.exe",
+        "raw_events": 24,
+        "features": {
+          "file_modification_rate": 2.2,
+          "file_rename_rate": 2.2,
+          "file_deletion_rate": 0.4,
+          "entropy_mean": 7.9775,
+          "entropy_delta": 3.5173,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 2.24,
+          "io_write_rate_mb_s": 4.8963,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 10.13,
+        "prediction": "ransomware_like",
+        "confidence": 0.9185,
+        "process": "claude.exe",
+        "raw_events": 102,
+        "features": {
+          "file_modification_rate": 10.4,
+          "file_rename_rate": 10.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9686,
+          "entropy_delta": 3.6782,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.53,
+          "io_write_rate_mb_s": 3.2848,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 13.2,
+        "prediction": "ransomware_like",
+        "confidence": 0.9179,
+        "process": "claude.exe",
+        "raw_events": 75,
+        "features": {
+          "file_modification_rate": 7.575757575840565,
+          "file_rename_rate": 6.977671451432099,
+          "file_deletion_rate": 0.3987240829389771,
+          "entropy_mean": 7.8657,
+          "entropy_delta": 3.583,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.003,
+          "process_cpu_percent": 1.53,
+          "io_write_rate_mb_s": 3.2848,
+          "read_write_ratio": 0.0081
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 2.85,
+    "files_encrypted_before_detection": 29,
+    "responded": true,
+    "response_ms": 290.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9337,
+      0.9146,
+      0.9172
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 155,
+    "windows": [
+      {
+        "t": 2.16,
+        "prediction": "ransomware_like",
+        "confidence": 0.9337,
+        "process": "claude.exe",
+        "raw_events": 14,
+        "features": {
+          "file_modification_rate": 1.1964107676935765,
+          "file_rename_rate": 1.1964107676935765,
+          "file_deletion_rate": 0.3988035892311922,
+          "entropy_mean": 7.9668,
+          "entropy_delta": 3.5514,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 1.75,
+          "io_write_rate_mb_s": 4.5748,
+          "read_write_ratio": 0.0083
+        }
+      },
+      {
+        "t": 9.22,
+        "prediction": "ransomware_like",
+        "confidence": 0.9146,
+        "process": "claude.exe",
+        "raw_events": 96,
+        "features": {
+          "file_modification_rate": 9.8,
+          "file_rename_rate": 9.4,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9777,
+          "entropy_delta": 3.6546,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 1.89,
+          "io_write_rate_mb_s": 3.5757,
+          "read_write_ratio": 0.0077
+        }
+      },
+      {
+        "t": 12.65,
+        "prediction": "ransomware_like",
+        "confidence": 0.9172,
+        "process": "claude.exe",
+        "raw_events": 91,
+        "features": {
+          "file_modification_rate": 9.2,
+          "file_rename_rate": 8.8,
+          "file_deletion_rate": 0.2,
+          "entropy_mean": 7.8988,
+          "entropy_delta": 3.6367,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 1.89,
+          "io_write_rate_mb_s": 3.5757,
+          "read_write_ratio": 0.0077
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 2.16,
+    "files_encrypted_before_detection": 22,
+    "responded": true,
+    "response_ms": 178.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 3,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.9303,
+      0.9149,
+      0.919
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 157,
+    "windows": [
+      {
+        "t": 2.23,
+        "prediction": "ransomware_like",
+        "confidence": 0.9303,
+        "process": "claude.exe",
+        "raw_events": 18,
+        "features": {
+          "file_modification_rate": 1.794616151540365,
+          "file_rename_rate": 1.794616151540365,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9688,
+          "entropy_delta": 3.4341,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 5.1681,
+          "read_write_ratio": 0.0077
+        }
+      },
+      {
+        "t": 9.57,
+        "prediction": "ransomware_like",
+        "confidence": 0.9149,
+        "process": "claude.exe",
+        "raw_events": 96,
+        "features": {
+          "file_modification_rate": 9.538950715408946,
+          "file_rename_rate": 9.538950715408946,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9726,
+          "entropy_delta": 3.6526,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.12,
+          "io_write_rate_mb_s": 3.4056,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 12.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.919,
+        "process": "claude.exe",
+        "raw_events": 87,
+        "features": {
+          "file_modification_rate": 8.856682769737871,
+          "file_rename_rate": 8.051529790670791,
+          "file_deletion_rate": 0.6038647343003093,
+          "entropy_mean": 7.8873,
+          "entropy_delta": 3.6531,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.12,
+          "io_write_rate_mb_s": 3.4056,
+          "read_write_ratio": 0.0081
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 2.23,
+    "files_encrypted_before_detection": 23,
+    "responded": true,
+    "response_ms": 178.3,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.9321,
+      0.9249
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 149,
+    "windows": [
+      {
+        "t": 5.77,
+        "prediction": "ransomware_like",
+        "confidence": 0.9321,
+        "process": "claude.exe",
+        "raw_events": 98,
+        "features": {
+          "file_modification_rate": 4.9078525640755535,
+          "file_rename_rate": 4.9078525640755535,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9668,
+          "entropy_delta": 3.5729,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 0.13,
+          "io_write_rate_mb_s": 4.1953,
+          "read_write_ratio": 0.0079
+        }
+      },
+      {
+        "t": 15.84,
+        "prediction": "ransomware_like",
+        "confidence": 0.9249,
+        "process": "claude.exe",
+        "raw_events": 103,
+        "features": {
+          "file_modification_rate": 5.2,
+          "file_rename_rate": 5.1,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.8978,
+          "entropy_delta": 3.681,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.14,
+          "io_write_rate_mb_s": 3.4184,
+          "read_write_ratio": 0.0079
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 5.77,
+    "files_encrypted_before_detection": 58,
+    "responded": true,
+    "response_ms": 916.5,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.9372,
+      0.9287
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 162,
+    "windows": [
+      {
+        "t": 7.45,
+        "prediction": "ransomware_like",
+        "confidence": 0.9372,
+        "process": "claude.exe",
+        "raw_events": 124,
+        "features": {
+          "file_modification_rate": 6.209935897401721,
+          "file_rename_rate": 5.909455128172604,
+          "file_deletion_rate": 0.3004807692291155,
+          "entropy_mean": 7.9776,
+          "entropy_delta": 3.6424,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.12,
+          "io_write_rate_mb_s": 4.1062,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 17.55,
+        "prediction": "ransomware_like",
+        "confidence": 0.9287,
+        "process": "claude.exe",
+        "raw_events": 77,
+        "features": {
+          "file_modification_rate": 3.8937699680724793,
+          "file_rename_rate": 3.7939297124808773,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.8833,
+          "entropy_delta": 3.6271,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 0.18,
+          "io_write_rate_mb_s": 3.3642,
+          "read_write_ratio": 0.008
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 7.44,
+    "files_encrypted_before_detection": 75,
+    "responded": true,
+    "response_ms": 1429.9,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "throttled",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.917,
+      0.9265
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 199,
+    "windows": [
+      {
+        "t": 11.33,
+        "prediction": "ransomware_like",
+        "confidence": 0.917,
+        "process": "claude.exe",
+        "raw_events": 198,
+        "features": {
+          "file_modification_rate": 9.884185303568602,
+          "file_rename_rate": 9.584664536793795,
+          "file_deletion_rate": 0.2995207667748061,
+          "entropy_mean": 7.9728,
+          "entropy_delta": 3.634,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.19,
+          "io_write_rate_mb_s": 3.3057,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 20.01,
+        "prediction": "ransomware_like",
+        "confidence": 0.9265,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 0.20032051281941032,
+          "file_rename_rate": 0.10016025640970516,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 6.088,
+          "entropy_delta": 3.5827,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.3,
+          "io_write_rate_mb_s": 3.4282,
+          "read_write_ratio": 0.008
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 9.9,
+    "ttd_s": 11.33,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2025.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 18,
+    "windows_flagged": 18,
+    "detected": true,
+    "confidences": [
+      0.5359,
+      0.5417,
+      0.5185,
+      0.5479,
+      0.5287,
+      0.5548,
+      0.5386,
+      0.5416,
+      0.5488,
+      0.5556,
+      0.5306,
+      0.5427,
+      0.5377,
+      0.5426,
+      0.5397,
+      0.5421,
+      0.5589,
+      0.5493
+    ],
+    "attributed_processes": [
+      "?",
+      "claude.exe",
+      "msedge.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 1.56,
+        "prediction": "ransomware_like",
+        "confidence": 0.5359,
+        "process": null,
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9689,
+          "entropy_delta": 3.6048,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 5.63,
+        "prediction": "ransomware_like",
+        "confidence": 0.5417,
+        "process": "msedge.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.536290322721186,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.974,
+          "entropy_delta": 3.6622,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 5.62,
+          "io_write_rate_mb_s": 5.7443,
+          "read_write_ratio": 0.4292
+        }
+      },
+      {
+        "t": 8.74,
+        "prediction": "ransomware_like",
+        "confidence": 0.5185,
+        "process": "msedge.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.007556675070063,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.974,
+          "entropy_delta": 3.8013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 5.62,
+          "io_write_rate_mb_s": 5.7443,
+          "read_write_ratio": 0.4292
+        }
+      },
+      {
+        "t": 9.57,
+        "prediction": "ransomware_like",
+        "confidence": 0.5479,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9671,
+          "entropy_delta": 3.4908,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 0.51,
+          "io_write_rate_mb_s": 3.5005,
+          "read_write_ratio": 0.0078
+        }
+      },
+      {
+        "t": 13.17,
+        "prediction": "ransomware_like",
+        "confidence": 0.5287,
+        "process": "claude.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.9847365829274812,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9641,
+          "entropy_delta": 3.4703,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0035,
+          "process_cpu_percent": 0.51,
+          "io_write_rate_mb_s": 3.5005,
+          "read_write_ratio": 0.0078
+        }
+      },
+      {
+        "t": 13.61,
+        "prediction": "ransomware_like",
+        "confidence": 0.5548,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.0472320976281737,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9706,
+          "entropy_delta": 3.6138,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.33,
+          "io_write_rate_mb_s": 3.3006,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 17.7,
+        "prediction": "ransomware_like",
+        "confidence": 0.5386,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.4888337468879411,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.971,
+          "entropy_delta": 3.7417,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.33,
+          "io_write_rate_mb_s": 3.3006,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 18.12,
+        "prediction": "ransomware_like",
+        "confidence": 0.5416,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 1.9872813989975546,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9777,
+          "entropy_delta": 3.5855,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.72,
+          "io_write_rate_mb_s": 3.6084,
+          "read_write_ratio": 0.0078
+        }
+      },
+      {
+        "t": 19.57,
+        "prediction": "ransomware_like",
+        "confidence": 0.5488,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.695417789869057,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9619,
+          "entropy_delta": 3.6372,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0036,
+          "process_cpu_percent": 0.72,
+          "io_write_rate_mb_s": 3.6084,
+          "read_write_ratio": 0.0078
+        }
+      },
+      {
+        "t": 23.62,
+        "prediction": "ransomware_like",
+        "confidence": 0.5556,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.534005037815284,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9723,
+          "entropy_delta": 3.5632,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.46,
+          "io_write_rate_mb_s": 3.2812,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 26.9,
+        "prediction": "ransomware_like",
+        "confidence": 0.5306,
+        "process": "claude.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.9925558312586273,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9254,
+          "entropy_delta": 3.7779,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0062,
+          "process_cpu_percent": 0.46,
+          "io_write_rate_mb_s": 3.2812,
+          "read_write_ratio": 0.0081
+        }
+      },
+      {
+        "t": 27.58,
+        "prediction": "ransomware_like",
+        "confidence": 0.5427,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.015113350140126,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9618,
+          "entropy_delta": 3.6862,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.79,
+          "io_write_rate_mb_s": 3.2883,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 31.4,
+        "prediction": "ransomware_like",
+        "confidence": 0.5377,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9733,
+          "entropy_delta": 3.8602,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.79,
+          "io_write_rate_mb_s": 3.2883,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 31.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.5426,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.3877745940315918,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9755,
+          "entropy_delta": 3.5005,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.53,
+          "io_write_rate_mb_s": 3.4051,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 35.8,
+        "prediction": "ransomware_like",
+        "confidence": 0.5397,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.032520325209985,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9712,
+          "entropy_delta": 3.5413,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 0.53,
+          "io_write_rate_mb_s": 3.4051,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 36.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.5421,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.630656339190139,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9839,
+          "entropy_delta": 3.5567,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 0.65,
+          "io_write_rate_mb_s": 3.3654,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 37.58,
+        "prediction": "ransomware_like",
+        "confidence": 0.5589,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 3.3670033670350414,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9699,
+          "entropy_delta": 3.7608,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.65,
+          "io_write_rate_mb_s": 3.3654,
+          "read_write_ratio": 0.008
+        }
+      },
+      {
+        "t": 41.6,
+        "prediction": "ransomware_like",
+        "confidence": 0.5493,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.0226700252101897,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9679,
+          "entropy_delta": 3.8614,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0029,
+          "process_cpu_percent": 0.38,
+          "io_write_rate_mb_s": 3.3394,
+          "read_write_ratio": 0.008
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 1.56,
+    "files_encrypted_before_detection": 4,
+    "responded": true,
+    "response_ms": 55.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 17,
+    "windows_flagged": 16,
+    "detected": true,
+    "confidences": [
+      0.5423,
+      0.5469,
+      0.5498,
+      0.5416,
+      0.5416,
+      0.5431,
+      0.5377,
+      0.5479,
+      0.545,
+      0.5562,
+      0.5354,
+      0.5474,
+      0.5498,
+      0.5427,
+      0.5403,
+      0.5446
+    ],
+    "attributed_processes": [
+      "?",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 1.1,
+        "prediction": "ransomware_like",
+        "confidence": 0.5423,
+        "process": null,
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9748,
+          "entropy_delta": 3.9915,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 5.49,
+        "prediction": "benign",
+        "confidence": 0.5272,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.570848146172014,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.983,
+          "entropy_delta": 3.5706,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 1.32,
+          "io_write_rate_mb_s": 8.2626,
+          "read_write_ratio": 0.0076
+        }
+      },
+      {
+        "t": 9.15,
+        "prediction": "ransomware_like",
+        "confidence": 0.5469,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269841810634,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9754,
+          "entropy_delta": 3.5314,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.77,
+          "io_write_rate_mb_s": 3.0049,
+          "read_write_ratio": 0.0086
+        }
+      },
+      {
+        "t": 12.49,
+        "prediction": "ransomware_like",
+        "confidence": 0.5498,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.4813895781465685,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9836,
+          "entropy_delta": 3.6912,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 0.77,
+          "io_write_rate_mb_s": 3.0049,
+          "read_write_ratio": 0.0086
+        }
+      },
+      {
+        "t": 13.13,
+        "prediction": "ransomware_like",
+        "confidence": 0.5416,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.015113350140126,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9664,
+          "entropy_delta": 3.5007,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.89,
+          "io_write_rate_mb_s": 3.7496,
+          "read_write_ratio": 0.0075
+        }
+      },
+      {
+        "t": 16.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.5416,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9744,
+          "entropy_delta": 3.5878,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 0.89,
+          "io_write_rate_mb_s": 3.7496,
+          "read_write_ratio": 0.0075
+        }
+      },
+      {
+        "t": 17.17,
+        "prediction": "ransomware_like",
+        "confidence": 0.5431,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.97,
+          "entropy_delta": 3.6251,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.81,
+          "io_write_rate_mb_s": 2.9108,
+          "read_write_ratio": 0.0087
+        }
+      },
+      {
+        "t": 21.39,
+        "prediction": "ransomware_like",
+        "confidence": 0.5377,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9763,
+          "entropy_delta": 3.5186,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.81,
+          "io_write_rate_mb_s": 2.9108,
+          "read_write_ratio": 0.0087
+        }
+      },
+      {
+        "t": 21.67,
+        "prediction": "ransomware_like",
+        "confidence": 0.5479,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 2.3856858846785975,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9839,
+          "entropy_delta": 3.5719,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 0.69,
+          "io_write_rate_mb_s": 3.9381,
+          "read_write_ratio": 0.0074
+        }
+      },
+      {
+        "t": 23.12,
+        "prediction": "ransomware_like",
+        "confidence": 0.545,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 2.042205581971623,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9583,
+          "entropy_delta": 3.5063,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.69,
+          "io_write_rate_mb_s": 3.9381,
+          "read_write_ratio": 0.0074
+        }
+      },
+      {
+        "t": 27.21,
+        "prediction": "ransomware_like",
+        "confidence": 0.5562,
+        "process": "claude.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.53629032245501,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9746,
+          "entropy_delta": 3.6816,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 0.82,
+          "io_write_rate_mb_s": 2.8445,
+          "read_write_ratio": 0.0086
+        }
+      },
+      {
+        "t": 31.1,
+        "prediction": "ransomware_like",
+        "confidence": 0.5354,
+        "process": "claude.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 1.5236160487240045,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9852,
+          "entropy_delta": 3.6157,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0012,
+          "process_cpu_percent": 1.16,
+          "io_write_rate_mb_s": 3.843,
+          "read_write_ratio": 0.0075
+        }
+      },
+      {
+        "t": 34.56,
+        "prediction": "ransomware_like",
+        "confidence": 0.5474,
+        "process": "claude.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 2.9542097489517767,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9797,
+          "entropy_delta": 3.8026,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 1.16,
+          "io_write_rate_mb_s": 3.843,
+          "read_write_ratio": 0.0075
+        }
+      },
+      {
+        "t": 35.14,
+        "prediction": "ransomware_like",
+        "confidence": 0.5498,
+        "process": "claude.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.539360081206674,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9832,
+          "entropy_delta": 3.5583,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 0.89,
+          "io_write_rate_mb_s": 2.9518,
+          "read_write_ratio": 0.0087
+        }
+      },
+      {
+        "t": 38.89,
+        "prediction": "ransomware_like",
+        "confidence": 0.5427,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269841810634,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9727,
+          "entropy_delta": 3.8972,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.89,
+          "io_write_rate_mb_s": 2.9518,
+          "read_write_ratio": 0.0087
+        }
+      },
+      {
+        "t": 39.16,
+        "prediction": "ransomware_like",
+        "confidence": 0.5403,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9851116625172547,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9721,
+          "entropy_delta": 3.7035,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 1.07,
+          "io_write_rate_mb_s": 3.6319,
+          "read_write_ratio": 0.0076
+        }
+      },
+      {
+        "t": 43.17,
+        "prediction": "ransomware_like",
+        "confidence": 0.5446,
+        "process": "claude.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9831,
+          "entropy_delta": 3.7123,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 1.07,
+          "io_write_rate_mb_s": 3.6319,
+          "read_write_ratio": 0.0076
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 1.09,
+    "files_encrypted_before_detection": 3,
+    "responded": true,
+    "response_ms": 27.9,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 15,
+    "windows_flagged": 3,
+    "detected": true,
+    "confidences": [
+      0.5423,
+      0.5531,
+      0.5287
+    ],
+    "attributed_processes": [
+      "?",
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 1.22,
+        "prediction": "ransomware_like",
+        "confidence": 0.5423,
+        "process": null,
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9636,
+          "entropy_delta": 4.0226,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0033,
+          "process_cpu_percent": 0.0,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 1.0
+        }
+      },
+      {
+        "t": 5.31,
+        "prediction": "ransomware_like",
+        "confidence": 0.5531,
+        "process": "System",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9787,
+          "entropy_delta": 3.5017,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 8.84,
+          "io_write_rate_mb_s": 0.0508,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 9.49,
+        "prediction": "benign",
+        "confidence": 0.5208,
+        "process": "python.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 4.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9701,
+          "entropy_delta": 3.7989,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 3.36,
+          "io_write_rate_mb_s": 0.0233,
+          "read_write_ratio": 5.0036
+        }
+      },
+      {
+        "t": 13.49,
+        "prediction": "benign",
+        "confidence": 0.5208,
+        "process": "python.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 4.032258064641055,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.976,
+          "entropy_delta": 3.5634,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 3.63,
+          "io_write_rate_mb_s": 0.017,
+          "read_write_ratio": 6.0059
+        }
+      },
+      {
+        "t": 17.5,
+        "prediction": "benign",
+        "confidence": 0.5208,
+        "process": "python.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 4.032258064641055,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9756,
+          "entropy_delta": 3.5753,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 3.42,
+          "io_write_rate_mb_s": 0.021,
+          "read_write_ratio": 6.0047
+        }
+      },
+      {
+        "t": 21.55,
+        "prediction": "benign",
+        "confidence": 0.5275,
+        "process": "python.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 4.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9729,
+          "entropy_delta": 3.6222,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.72,
+          "io_write_rate_mb_s": 0.0217,
+          "read_write_ratio": 6.0047
+        }
+      },
+      {
+        "t": 25.36,
+        "prediction": "benign",
+        "confidence": 0.5309,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0314880649653393,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9747,
+          "entropy_delta": 3.5755,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 3.46,
+          "io_write_rate_mb_s": 0.0255,
+          "read_write_ratio": 6.0044
+        }
+      },
+      {
+        "t": 28.5,
+        "prediction": "benign",
+        "confidence": 0.5321,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 1.9841269841810634,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9721,
+          "entropy_delta": 3.7071,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.46,
+          "io_write_rate_mb_s": 0.0255,
+          "read_write_ratio": 6.0044
+        }
+      },
+      {
+        "t": 29.46,
+        "prediction": "benign",
+        "confidence": 0.5285,
+        "process": "python.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 3.02419354830334,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9727,
+          "entropy_delta": 3.5181,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 3.46,
+          "io_write_rate_mb_s": 0.0074,
+          "read_write_ratio": 7.1328
+        }
+      },
+      {
+        "t": 32.59,
+        "prediction": "benign",
+        "confidence": 0.539,
+        "process": "python.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 1.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9855,
+          "entropy_delta": 3.7959,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0013,
+          "process_cpu_percent": 3.46,
+          "io_write_rate_mb_s": 0.0074,
+          "read_write_ratio": 7.1328
+        }
+      },
+      {
+        "t": 33.4,
+        "prediction": "benign",
+        "confidence": 0.5285,
+        "process": "python.exe",
+        "raw_events": 5,
+        "features": {
+          "file_modification_rate": 2.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9568,
+          "entropy_delta": 3.7031,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0037,
+          "process_cpu_percent": 3.75,
+          "io_write_rate_mb_s": 0.0201,
+          "read_write_ratio": 5.9206
+        }
+      },
+      {
+        "t": 36.83,
+        "prediction": "benign",
+        "confidence": 0.5309,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9567,
+          "entropy_delta": 3.784,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0037,
+          "process_cpu_percent": 3.75,
+          "io_write_rate_mb_s": 0.0201,
+          "read_write_ratio": 5.9206
+        }
+      },
+      {
+        "t": 37.37,
+        "prediction": "benign",
+        "confidence": 0.5309,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9786,
+          "entropy_delta": 3.5496,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 3.62,
+          "io_write_rate_mb_s": 0.0154,
+          "read_write_ratio": 6.1097
+        }
+      },
+      {
+        "t": 41.01,
+        "prediction": "benign",
+        "confidence": 0.5309,
+        "process": "python.exe",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9729,
+          "entropy_delta": 3.6931,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 3.62,
+          "io_write_rate_mb_s": 0.0154,
+          "read_write_ratio": 6.1097
+        }
+      },
+      {
+        "t": 41.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.5287,
+        "process": "System",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9839,
+          "entropy_delta": 3.6178,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0014,
+          "process_cpu_percent": 3.52,
+          "io_write_rate_mb_s": 0.0821,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 1.22,
+    "files_encrypted_before_detection": 3,
+    "responded": true,
+    "response_ms": 15.8,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 9,
+    "windows_flagged": 9,
+    "detected": true,
+    "confidences": [
+      0.5414,
+      0.5425,
+      0.5426,
+      0.53,
+      0.5296,
+      0.53,
+      0.5365,
+      0.5351,
+      0.5344
+    ],
+    "attributed_processes": [
+      "msedge.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 4.38,
+        "prediction": "ransomware_like",
+        "confidence": 0.5414,
+        "process": "msedge.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.3955342902864198,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9517,
+          "entropy_delta": 3.3721,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0043,
+          "process_cpu_percent": 2.6,
+          "io_write_rate_mb_s": 0.8422,
+          "read_write_ratio": 0.7787
+        }
+      },
+      {
+        "t": 10.97,
+        "prediction": "ransomware_like",
+        "confidence": 0.5425,
+        "process": "msedge.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.794616151540365,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9629,
+          "entropy_delta": 3.6982,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 2.6,
+          "io_write_rate_mb_s": 0.8422,
+          "read_write_ratio": 0.7787
+        }
+      },
+      {
+        "t": 14.45,
+        "prediction": "ransomware_like",
+        "confidence": 0.5426,
+        "process": "msedge.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.4149728315357293,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9675,
+          "entropy_delta": 3.5596,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 1.36,
+          "io_write_rate_mb_s": 0.4947,
+          "read_write_ratio": 0.9008
+        }
+      },
+      {
+        "t": 19.41,
+        "prediction": "ransomware_like",
+        "confidence": 0.53,
+        "process": "msedge.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.954,
+          "entropy_delta": 3.6543,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.004,
+          "process_cpu_percent": 0.68,
+          "io_write_rate_mb_s": 0.3891,
+          "read_write_ratio": 0.0803
+        }
+      },
+      {
+        "t": 25.23,
+        "prediction": "ransomware_like",
+        "confidence": 0.5296,
+        "process": "msedge.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 1.1961722488169313,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9648,
+          "entropy_delta": 3.7297,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.68,
+          "io_write_rate_mb_s": 0.3891,
+          "read_write_ratio": 0.0803
+        }
+      },
+      {
+        "t": 29.52,
+        "prediction": "ransomware_like",
+        "confidence": 0.53,
+        "process": "msedge.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.97,
+          "entropy_delta": 3.6892,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0026,
+          "process_cpu_percent": 0.72,
+          "io_write_rate_mb_s": 0.4029,
+          "read_write_ratio": 0.0458
+        }
+      },
+      {
+        "t": 34.39,
+        "prediction": "ransomware_like",
+        "confidence": 0.5365,
+        "process": "msedge.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9714,
+          "entropy_delta": 3.6586,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 0.71,
+          "io_write_rate_mb_s": 0.4033,
+          "read_write_ratio": 0.0476
+        }
+      },
+      {
+        "t": 39.61,
+        "prediction": "ransomware_like",
+        "confidence": 0.5351,
+        "process": "msedge.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 1.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9785,
+          "entropy_delta": 3.6666,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0018,
+          "process_cpu_percent": 0.85,
+          "io_write_rate_mb_s": 0.3901,
+          "read_write_ratio": 0.0491
+        }
+      },
+      {
+        "t": 44.35,
+        "prediction": "ransomware_like",
+        "confidence": 0.5344,
+        "process": "msedge.exe",
+        "raw_events": 7,
+        "features": {
+          "file_modification_rate": 1.4044943820069875,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9816,
+          "entropy_delta": 3.5707,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 0.85,
+          "io_write_rate_mb_s": 0.3901,
+          "read_write_ratio": 0.0491
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 4.38,
+    "files_encrypted_before_detection": 9,
+    "responded": true,
+    "response_ms": 136.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 9,
+    "windows_flagged": 8,
+    "detected": true,
+    "confidences": [
+      0.5318,
+      0.5322,
+      0.5352,
+      0.5429,
+      0.5346,
+      0.5293,
+      0.539,
+      0.5326
+    ],
+    "attributed_processes": [
+      "System",
+      "msedge.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 2.69,
+        "prediction": "ransomware_like",
+        "confidence": 0.5318,
+        "process": "System",
+        "raw_events": 4,
+        "features": {
+          "file_modification_rate": 0.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9873,
+          "entropy_delta": 3.5589,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0011,
+          "process_cpu_percent": 5.68,
+          "io_write_rate_mb_s": 0.0461,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 9.85,
+        "prediction": "ransomware_like",
+        "confidence": 0.5322,
+        "process": "System",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.794258373225397,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9838,
+          "entropy_delta": 3.5984,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0013,
+          "process_cpu_percent": 5.68,
+          "io_write_rate_mb_s": 0.0461,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 12.8,
+        "prediction": "ransomware_like",
+        "confidence": 0.5352,
+        "process": "msedge.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 2.2070626002966947,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9738,
+          "entropy_delta": 3.5943,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 6.33,
+          "io_write_rate_mb_s": 0.9814,
+          "read_write_ratio": 0.2064
+        }
+      },
+      {
+        "t": 17.76,
+        "prediction": "ransomware_like",
+        "confidence": 0.5429,
+        "process": "msedge.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9814,
+          "entropy_delta": 3.6986,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0015,
+          "process_cpu_percent": 7.24,
+          "io_write_rate_mb_s": 1.4385,
+          "read_write_ratio": 0.1265
+        }
+      },
+      {
+        "t": 24.38,
+        "prediction": "ransomware_like",
+        "confidence": 0.5346,
+        "process": "msedge.exe",
+        "raw_events": 10,
+        "features": {
+          "file_modification_rate": 1.9936204146948855,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9793,
+          "entropy_delta": 3.6383,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 7.24,
+          "io_write_rate_mb_s": 1.4385,
+          "read_write_ratio": 0.1265
+        }
+      },
+      {
+        "t": 27.87,
+        "prediction": "ransomware_like",
+        "confidence": 0.5293,
+        "process": "msedge.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.392821535387153,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9783,
+          "entropy_delta": 3.6013,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 5.26,
+          "io_write_rate_mb_s": 0.682,
+          "read_write_ratio": 0.0725
+        }
+      },
+      {
+        "t": 32.74,
+        "prediction": "ransomware_like",
+        "confidence": 0.539,
+        "process": "System",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6048144433344873,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9781,
+          "entropy_delta": 3.7044,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 3.67,
+          "io_write_rate_mb_s": 0.107,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 39.81,
+        "prediction": "ransomware_like",
+        "confidence": 0.5326,
+        "process": "System",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9818,
+          "entropy_delta": 3.6742,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 3.67,
+          "io_write_rate_mb_s": 0.107,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 43.05,
+        "prediction": "benign",
+        "confidence": 0.536,
+        "process": "chrome.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6051364365794143,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9682,
+          "entropy_delta": 3.5458,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 2.61,
+          "io_write_rate_mb_s": 1.1911,
+          "read_write_ratio": 4.0977
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 2.69,
+    "files_encrypted_before_detection": 6,
+    "responded": true,
+    "response_ms": 111.8,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 9,
+    "windows_flagged": 6,
+    "detected": true,
+    "confidences": [
+      0.5234,
+      0.5371,
+      0.5296,
+      0.5329,
+      0.5359,
+      0.5324
+    ],
+    "attributed_processes": [
+      "System",
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 3.15,
+        "prediction": "ransomware_like",
+        "confidence": 0.5234,
+        "process": "chrome.exe",
+        "raw_events": 3,
+        "features": {
+          "file_modification_rate": 0.6019261637172804,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9791,
+          "entropy_delta": 3.7354,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 1.71,
+          "io_write_rate_mb_s": 0.8442,
+          "read_write_ratio": 0.0792
+        }
+      },
+      {
+        "t": 9.87,
+        "prediction": "ransomware_like",
+        "confidence": 0.5371,
+        "process": "chrome.exe",
+        "raw_events": 11,
+        "features": {
+          "file_modification_rate": 2.192982456164374,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9751,
+          "entropy_delta": 3.6835,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 1.71,
+          "io_write_rate_mb_s": 0.8442,
+          "read_write_ratio": 0.0792
+        }
+      },
+      {
+        "t": 13.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.5296,
+        "process": "chrome.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 2.4,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9782,
+          "entropy_delta": 3.6057,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 1.41,
+          "io_write_rate_mb_s": 0.9585,
+          "read_write_ratio": 0.0482
+        }
+      },
+      {
+        "t": 18.22,
+        "prediction": "ransomware_like",
+        "confidence": 0.5329,
+        "process": "chrome.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 1.6,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9708,
+          "entropy_delta": 3.6195,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 1.47,
+          "io_write_rate_mb_s": 1.1747,
+          "read_write_ratio": 0.042
+        }
+      },
+      {
+        "t": 24.66,
+        "prediction": "ransomware_like",
+        "confidence": 0.5359,
+        "process": "chrome.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.794616151540365,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9699,
+          "entropy_delta": 3.6961,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 1.47,
+          "io_write_rate_mb_s": 1.1747,
+          "read_write_ratio": 0.042
+        }
+      },
+      {
+        "t": 28.26,
+        "prediction": "ransomware_like",
+        "confidence": 0.5324,
+        "process": "System",
+        "raw_events": 13,
+        "features": {
+          "file_modification_rate": 2.6078234704185417,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9775,
+          "entropy_delta": 3.7075,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 2.55,
+          "io_write_rate_mb_s": 0.0159,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 33.44,
+        "prediction": "benign",
+        "confidence": 0.5279,
+        "process": "python.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9648,
+          "entropy_delta": 3.5577,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0032,
+          "process_cpu_percent": 2.4,
+          "io_write_rate_mb_s": 0.0296,
+          "read_write_ratio": 5.4492
+        }
+      },
+      {
+        "t": 39.41,
+        "prediction": "benign",
+        "confidence": 0.5327,
+        "process": "python.exe",
+        "raw_events": 9,
+        "features": {
+          "file_modification_rate": 1.8,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9752,
+          "entropy_delta": 3.5971,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 2.07,
+          "io_write_rate_mb_s": 0.0119,
+          "read_write_ratio": 6.5832
+        }
+      },
+      {
+        "t": 43.32,
+        "prediction": "benign",
+        "confidence": 0.5314,
+        "process": "python.exe",
+        "raw_events": 6,
+        "features": {
+          "file_modification_rate": 1.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9796,
+          "entropy_delta": 3.5707,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 2.07,
+          "io_write_rate_mb_s": 0.0119,
+          "read_write_ratio": 6.5832
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 3.15,
+    "files_encrypted_before_detection": 7,
+    "responded": true,
+    "response_ms": 87.0,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.5426,
+      0.5346,
+      0.5368,
+      0.5346,
+      0.5245
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 6.61,
+        "prediction": "ransomware_like",
+        "confidence": 0.5426,
+        "process": "chrome.exe",
+        "raw_events": 12,
+        "features": {
+          "file_modification_rate": 1.1980830670992244,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9588,
+          "entropy_delta": 3.627,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.0036,
+          "process_cpu_percent": 8.6,
+          "io_write_rate_mb_s": 2.1254,
+          "read_write_ratio": 0.0671
+        }
+      },
+      {
+        "t": 16.86,
+        "prediction": "ransomware_like",
+        "confidence": 0.5346,
+        "process": "chrome.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9659,
+          "entropy_delta": 3.6606,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.003,
+          "process_cpu_percent": 2.32,
+          "io_write_rate_mb_s": 0.3502,
+          "read_write_ratio": 0.2083
+        }
+      },
+      {
+        "t": 26.83,
+        "prediction": "ransomware_like",
+        "confidence": 0.5368,
+        "process": "chrome.exe",
+        "raw_events": 15,
+        "features": {
+          "file_modification_rate": 1.5024038461455775,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9678,
+          "entropy_delta": 3.634,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0028,
+          "process_cpu_percent": 2.03,
+          "io_write_rate_mb_s": 0.2635,
+          "read_write_ratio": 0.2923
+        }
+      },
+      {
+        "t": 39.17,
+        "prediction": "ransomware_like",
+        "confidence": 0.5346,
+        "process": "chrome.exe",
+        "raw_events": 25,
+        "features": {
+          "file_modification_rate": 2.496006389790051,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9742,
+          "entropy_delta": 3.6483,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0022,
+          "process_cpu_percent": 2.03,
+          "io_write_rate_mb_s": 0.2635,
+          "read_write_ratio": 0.2923
+        }
+      },
+      {
+        "t": 46.59,
+        "prediction": "ransomware_like",
+        "confidence": 0.5245,
+        "process": "chrome.exe",
+        "raw_events": 8,
+        "features": {
+          "file_modification_rate": 0.8012820512776413,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9715,
+          "entropy_delta": 3.536,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 3.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 7.02,
+          "io_write_rate_mb_s": 1.6441,
+          "read_write_ratio": 0.0555
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 6.61,
+    "files_encrypted_before_detection": 14,
+    "responded": true,
+    "response_ms": 251.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.5292,
+      0.5405,
+      0.5461,
+      0.5419,
+      0.5419
+    ],
+    "attributed_processes": [
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 1.33,
+        "prediction": "ransomware_like",
+        "confidence": 0.5292,
+        "process": "claude.exe",
+        "raw_events": 2,
+        "features": {
+          "file_modification_rate": 0.19970044932573242,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9741,
+          "entropy_delta": 3.8005,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 1.58,
+          "io_write_rate_mb_s": 2.5211,
+          "read_write_ratio": 0.0133
+        }
+      },
+      {
+        "t": 11.62,
+        "prediction": "ransomware_like",
+        "confidence": 0.5405,
+        "process": "claude.exe",
+        "raw_events": 21,
+        "features": {
+          "file_modification_rate": 2.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9762,
+          "entropy_delta": 3.5582,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 0.6,
+          "io_write_rate_mb_s": 3.7288,
+          "read_write_ratio": 0.0083
+        }
+      },
+      {
+        "t": 21.53,
+        "prediction": "ransomware_like",
+        "confidence": 0.5461,
+        "process": "claude.exe",
+        "raw_events": 17,
+        "features": {
+          "file_modification_rate": 1.702553830748501,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9762,
+          "entropy_delta": 3.7022,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 4.0,
+          "avg_size_change_ratio": 1.002,
+          "process_cpu_percent": 0.17,
+          "io_write_rate_mb_s": 3.6932,
+          "read_write_ratio": 0.0073
+        }
+      },
+      {
+        "t": 33.01,
+        "prediction": "ransomware_like",
+        "confidence": 0.5419,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 1.9970044932573243,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9784,
+          "entropy_delta": 3.6326,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 0.16,
+          "io_write_rate_mb_s": 3.8427,
+          "read_write_ratio": 0.0072
+        }
+      },
+      {
+        "t": 41.65,
+        "prediction": "ransomware_like",
+        "confidence": 0.5419,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 2.0030045067629425,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9821,
+          "entropy_delta": 3.6569,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0016,
+          "process_cpu_percent": 0.16,
+          "io_write_rate_mb_s": 3.8427,
+          "read_write_ratio": 0.0072
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 1.33,
+    "files_encrypted_before_detection": 3,
+    "responded": true,
+    "response_ms": 36.4,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "slow_inplace",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 5,
+    "windows_flagged": 5,
+    "detected": true,
+    "confidences": [
+      0.5408,
+      0.5324,
+      0.534,
+      0.5324,
+      0.5326
+    ],
+    "attributed_processes": [
+      "System",
+      "claude.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 80,
+    "restore_actions": 80,
+    "windows": [
+      {
+        "t": 10.34,
+        "prediction": "ransomware_like",
+        "confidence": 0.5408,
+        "process": "claude.exe",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 1.9970044932573243,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9694,
+          "entropy_delta": 3.537,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 0.44,
+          "io_write_rate_mb_s": 2.5299,
+          "read_write_ratio": 0.01
+        }
+      },
+      {
+        "t": 20.49,
+        "prediction": "ransomware_like",
+        "confidence": 0.5324,
+        "process": "System",
+        "raw_events": 20,
+        "features": {
+          "file_modification_rate": 2.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9719,
+          "entropy_delta": 3.6896,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 2.33,
+          "io_write_rate_mb_s": 0.0543,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 31.29,
+        "prediction": "ransomware_like",
+        "confidence": 0.534,
+        "process": "System",
+        "raw_events": 17,
+        "features": {
+          "file_modification_rate": 1.7,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9789,
+          "entropy_delta": 3.5587,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 2.66,
+          "io_write_rate_mb_s": 0.0254,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 40.36,
+        "prediction": "ransomware_like",
+        "confidence": 0.5324,
+        "process": "System",
+        "raw_events": 22,
+        "features": {
+          "file_modification_rate": 2.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.9707,
+          "entropy_delta": 3.6938,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 2.66,
+          "io_write_rate_mb_s": 0.0254,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 50.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.5326,
+        "process": "claude.exe",
+        "raw_events": 1,
+        "features": {
+          "file_modification_rate": 0.10015022533814713,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 0.0,
+          "entropy_mean": 7.973,
+          "entropy_delta": 3.6035,
+          "extension_change_ratio": 0.0,
+          "unique_dirs_touched": 1.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 1.19,
+          "io_write_rate_mb_s": 0.1644,
+          "read_write_ratio": 0.1374
+        }
+      }
+    ],
+    "files_encrypted_total": 80,
+    "attack_duration_s": 39.5,
+    "ttd_s": 10.34,
+    "files_encrypted_before_detection": 21,
+    "responded": true,
+    "response_ms": 430.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.7369
+    ],
+    "attributed_processes": [
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.54,
+        "prediction": "ransomware_like",
+        "confidence": 0.7369,
+        "process": "python.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 50.0,
+          "entropy_mean": 7.9317,
+          "entropy_delta": 3.6284,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 3.26,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 7.53,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4065.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.7369
+    ],
+    "attributed_processes": [
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.48,
+        "prediction": "ransomware_like",
+        "confidence": 0.7369,
+        "process": "python.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 50.5,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 50.0,
+          "entropy_mean": 7.9411,
+          "entropy_delta": 3.6365,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 3.35,
+          "io_write_rate_mb_s": 0.0,
+          "read_write_ratio": 5.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 7.48,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4312.8,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 2,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8502
+    ],
+    "attributed_processes": [
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 7.15,
+        "prediction": "ransomware_like",
+        "confidence": 0.8502,
+        "process": "System",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 51.29507364037482,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 50.78720162413349,
+          "entropy_mean": 7.9354,
+          "entropy_delta": 3.6335,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.52,
+          "io_write_rate_mb_s": 0.0181,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 7.15,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 4118.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 0,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.8702,
+      0.8018
+    ],
+    "attributed_processes": [
+      "System",
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 189,
+    "windows": [
+      {
+        "t": 3.72,
+        "prediction": "ransomware_like",
+        "confidence": 0.8702,
+        "process": "System",
+        "raw_events": 169,
+        "features": {
+          "file_modification_rate": 15.948963317559084,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 17.74322169078448,
+          "entropy_mean": 7.973,
+          "entropy_delta": 3.5396,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0023,
+          "process_cpu_percent": 2.68,
+          "io_write_rate_mb_s": 0.0328,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 8.98,
+        "prediction": "ransomware_like",
+        "confidence": 0.8018,
+        "process": "python.exe",
+        "raw_events": 32,
+        "features": {
+          "file_modification_rate": 4.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 2.2,
+          "entropy_mean": 7.7729,
+          "entropy_delta": 3.9824,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0036,
+          "process_cpu_percent": 2.94,
+          "io_write_rate_mb_s": 0.1123,
+          "read_write_ratio": 3.9584
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 3.72,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1695.7,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 1,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.8702,
+      0.7886
+    ],
+    "attributed_processes": [
+      "System",
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 187,
+    "windows": [
+      {
+        "t": 3.54,
+        "prediction": "ransomware_like",
+        "confidence": 0.8702,
+        "process": "System",
+        "raw_events": 167,
+        "features": {
+          "file_modification_rate": 16.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 17.4,
+          "entropy_mean": 7.9801,
+          "entropy_delta": 3.5478,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0017,
+          "process_cpu_percent": 2.78,
+          "io_write_rate_mb_s": 0.028,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 9.07,
+        "prediction": "ransomware_like",
+        "confidence": 0.7886,
+        "process": "python.exe",
+        "raw_events": 34,
+        "features": {
+          "file_modification_rate": 4.2,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 2.6,
+          "entropy_mean": 7.7929,
+          "entropy_delta": 3.989,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0025,
+          "process_cpu_percent": 2.78,
+          "io_write_rate_mb_s": 0.1433,
+          "read_write_ratio": 3.9664
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.15,
+    "ttd_s": 3.54,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1990.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 5,
+    "trial": 2,
+    "windows_analyzed": 2,
+    "windows_flagged": 2,
+    "detected": true,
+    "confidences": [
+      0.8703,
+      0.803
+    ],
+    "attributed_processes": [
+      "System",
+      "python.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 191,
+    "windows": [
+      {
+        "t": 3.79,
+        "prediction": "ransomware_like",
+        "confidence": 0.8703,
+        "process": "System",
+        "raw_events": 171,
+        "features": {
+          "file_modification_rate": 16.0,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 18.2,
+          "entropy_mean": 7.9755,
+          "entropy_delta": 3.5451,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 5.0,
+          "avg_size_change_ratio": 1.0021,
+          "process_cpu_percent": 3.42,
+          "io_write_rate_mb_s": 0.0094,
+          "read_write_ratio": 0.0
+        }
+      },
+      {
+        "t": 8.96,
+        "prediction": "ransomware_like",
+        "confidence": 0.803,
+        "process": "python.exe",
+        "raw_events": 30,
+        "features": {
+          "file_modification_rate": 4.187437686927518,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 1.794616151540365,
+          "entropy_mean": 7.7796,
+          "entropy_delta": 3.9993,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 2.0,
+          "avg_size_change_ratio": 1.0031,
+          "process_cpu_percent": 2.93,
+          "io_write_rate_mb_s": 0.1283,
+          "read_write_ratio": 3.9168
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 3.78,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1796.2,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 0,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.9009
+    ],
+    "attributed_processes": [
+      "chrome.exe"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 9.1,
+        "prediction": "ransomware_like",
+        "confidence": 0.9009,
+        "process": "chrome.exe",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.083865814634601,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 9.984025559044161,
+          "entropy_mean": 7.9304,
+          "entropy_delta": 3.6271,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0027,
+          "process_cpu_percent": 2.84,
+          "io_write_rate_mb_s": 0.0794,
+          "read_write_ratio": 0.8902
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.16,
+    "ttd_s": 9.1,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 1996.8,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 1,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8951
+    ],
+    "attributed_processes": [
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 10.8,
+        "prediction": "ransomware_like",
+        "confidence": 0.8951,
+        "process": "System",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 7.9407,
+          "entropy_delta": 3.6361,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0019,
+          "process_cpu_percent": 2.99,
+          "io_write_rate_mb_s": 0.0914,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.14,
+    "ttd_s": 10.79,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2304.1,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  },
+  {
+    "workload": "copy_delete",
+    "kind": "attack",
+    "window_seconds": 10,
+    "trial": 2,
+    "windows_analyzed": 1,
+    "windows_flagged": 1,
+    "detected": true,
+    "confidences": [
+      0.8951
+    ],
+    "attributed_processes": [
+      "System"
+    ],
+    "attribution_correct": 0.0,
+    "quarantine_actions": 101,
+    "restore_actions": 100,
+    "windows": [
+      {
+        "t": 6.69,
+        "prediction": "ransomware_like",
+        "confidence": 0.8951,
+        "process": "System",
+        "raw_events": 201,
+        "features": {
+          "file_modification_rate": 10.1,
+          "file_rename_rate": 0.0,
+          "file_deletion_rate": 10.0,
+          "entropy_mean": 7.9357,
+          "entropy_delta": 3.6338,
+          "extension_change_ratio": 1.0,
+          "unique_dirs_touched": 6.0,
+          "avg_size_change_ratio": 1.0024,
+          "process_cpu_percent": 3.44,
+          "io_write_rate_mb_s": 0.0152,
+          "read_write_ratio": 0.0
+        }
+      }
+    ],
+    "files_encrypted_total": 100,
+    "attack_duration_s": 0.14,
+    "ttd_s": 6.69,
+    "files_encrypted_before_detection": 100,
+    "responded": true,
+    "response_ms": 2125.6,
+    "files_intact_after": 100,
+    "files_lost_after": 0,
+    "residual_artifacts": 0
+  }
+]
