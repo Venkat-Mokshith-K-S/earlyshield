@@ -16,38 +16,46 @@ $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 
 function Test-DockerEngine {
-    docker info *> $null
+    # Windows PowerShell turns a native command's redirected stderr into a
+    # terminating error under "Stop", and "docker info" writes to stderr
+    # precisely when the engine is down, so relax it for this one call.
+    $previous = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try { docker info 2>&1 | Out-Null } catch { }
+    $ErrorActionPreference = $previous
     return $LASTEXITCODE -eq 0
 }
 
-if (-not (Test-DockerEngine)) {
-    $desktop = Get-Process -Name "Docker Desktop" -ErrorAction SilentlyContinue
-    if ($desktop) {
-        Write-Host "Docker Desktop is running but its engine isn't (probably the stale-socket crash). Closing it..."
-        Get-Process | Where-Object { $_.ProcessName -match '^(Docker Desktop|com\.docker\..*|vpnkit.*)$' } |
-            Stop-Process -Force -ErrorAction SilentlyContinue
-        Start-Sleep -Seconds 3
-    }
+$exe = @(
+    "$env:LOCALAPPDATA\Programs\DockerDesktop\Docker Desktop.exe",
+    "$env:ProgramFiles\Docker\Docker\Docker Desktop.exe"
+) | Where-Object { Test-Path $_ } | Select-Object -First 1
+
+# Docker Desktop may also be starting by itself at login and crash on the
+# same stale files a moment later, so clean up and launch up to 3 times.
+$attempt = 0
+while (-not (Test-DockerEngine)) {
+    $attempt++
+    if ($attempt -gt 3) { throw "Docker didn't start after 3 attempts. Open Docker Desktop and check for an error (never click 'Reset to factory defaults')." }
+    if (-not $exe) { throw "Docker Desktop.exe not found. Start Docker Desktop by hand." }
+
+    Write-Host "Attempt ${attempt}: closing Docker Desktop and clearing stale socket folders..."
+    Get-Process | Where-Object { $_.ProcessName -match '^(Docker Desktop|com\.docker\..*|vpnkit.*)$' } |
+        Stop-Process -Force -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 3
 
     $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
     foreach ($dir in @("$env:LOCALAPPDATA\Docker\run", "$env:LOCALAPPDATA\docker-secrets-engine")) {
         if (Test-Path $dir) {
             Rename-Item $dir "$dir.stale-$stamp"
-            Write-Host "Moved stale folder aside: $dir"
+            Write-Host "  moved stale folder aside: $dir"
         }
     }
 
-    $exe = @(
-        "$env:LOCALAPPDATA\Programs\DockerDesktop\Docker Desktop.exe",
-        "$env:ProgramFiles\Docker\Docker\Docker Desktop.exe"
-    ) | Where-Object { Test-Path $_ } | Select-Object -First 1
-    if (-not $exe) { throw "Docker Desktop.exe not found. Start Docker Desktop by hand." }
-
-    Write-Host "Starting Docker Desktop..."
+    Write-Host "  starting Docker Desktop..."
     Start-Process $exe
-    $deadline = (Get-Date).AddMinutes(3)
-    while (-not (Test-DockerEngine)) {
-        if ((Get-Date) -gt $deadline) { throw "Docker didn't start within 3 minutes. Open Docker Desktop and check for an error." }
+    $deadline = (Get-Date).AddSeconds(90)
+    while (-not (Test-DockerEngine) -and (Get-Date) -lt $deadline) {
         Start-Sleep -Seconds 3
     }
 }
